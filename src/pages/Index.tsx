@@ -33,11 +33,11 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl text-foreground mb-10">What we see</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
             <li className="border-l-2 border-primary pl-5">Your Workfront environment was configured three years ago. The person who set it up is gone. Nobody wants to touch the Fusion scenarios.</li>
-            <li className="border-l-2 border-primary pl-5">Your AI pilot impressed leadership in demo. Six months later it's still not in production.</li>
-            <li className="border-l-2 border-primary pl-5">You're paying a Workfront partner to configure things you could own if anyone on your team understood the architecture.</li>
+            <li className="border-l-2 border-primary pl-5">Your AI pilot impressed leadership in demo. Six months later, it still isn't in production.</li>
+            <li className="border-l-2 border-primary pl-5">You're paying a Workfront partner to configure things you could own if anyone on your team actually understood the architecture.</li>
             <li className="border-l-2 border-primary pl-5">Every integration breaks when something upstream changes because nobody mapped the dependencies.</li>
             <li className="border-l-2 border-primary pl-5">Your developers are generating more code with AI and shipping slower because review and rework doubled.</li>
-            <li className="border-l-2 border-primary pl-5">The system works. But only one person knows why, and they're tired.</li>
+            <li className="border-l-2 border-primary pl-5">The system works. Only one person knows why. They're tired.</li>
           </ul>
           <p className="mt-10 text-foreground font-medium mb-8">
             If this is happening inside your team, talk to us before you touch the next change.
