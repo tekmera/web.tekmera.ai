@@ -70,7 +70,7 @@ const Workfront = () => (
       </section>
 
       <section className="border-t border-border pt-12">
-        <h2 className="text-xl text-foreground mb-6">Close</h2>
+        
         <p className="text-secondary-foreground mb-6">
           If your Workfront environment feels fragile, opaque, or increasingly dependent on tribal knowledge, the issue
           isn't configuration. It's architecture.
