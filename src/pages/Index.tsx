@@ -37,7 +37,7 @@ const Index = () => {
             <li className="border-l-2 border-primary pl-5">Your Workfront partner configured the platform. When you asked how it connects to your ERP, they brought in someone else.</li>
             <li className="border-l-2 border-primary pl-5">Every integration breaks when something upstream changes because nobody mapped the dependencies.</li>
             <li className="border-l-2 border-primary pl-5">Your developers are generating more code with AI and shipping slower because review and rework doubled.</li>
-            <li className="border-l-2 border-primary pl-5">You hired consultants to simplify things. They left and nobody can explain what they built.</li>
+            <li className="border-l-2 border-primary pl-5">You hired consultants to simplify things. They left. Nobody can explain what they built.</li>
             <li className="border-l-2 border-primary pl-5">The system works. Only one person knows why. They're tired.</li>
           </ul>
           <p className="mt-10 text-foreground font-medium mb-8">
