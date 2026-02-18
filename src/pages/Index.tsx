@@ -33,14 +33,14 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl text-foreground mb-10">Sound familiar?</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
             <li className="border-l-2 border-primary pl-5">The person who built your system left. Nobody knows how it works.</li>
-            <li className="border-l-2 border-primary pl-5">Decision logic lives in one person's head — and they're the bottleneck for everything.</li>
+            <li className="border-l-2 border-primary pl-5">Decision logic lives in one person's head. They're the bottleneck for everything.</li>
             <li className="border-l-2 border-primary pl-5">Every handoff creates rework because the reasoning was never captured.</li>
-            <li className="border-l-2 border-primary pl-5">AI pilots that work in demos but won't survive production.</li>
-            <li className="border-l-2 border-primary pl-5">You're scaling by adding people instead of making the system understandable.</li>
+            <li className="border-l-2 border-primary pl-5">AI pilots that work in demos and stall the moment someone says "production."</li>
+            <li className="border-l-2 border-primary pl-5">You're scaling by adding people because the system itself is opaque.</li>
             <li className="border-l-2 border-primary pl-5">Nobody fully understands what was built or why it was built that way.</li>
           </ul>
           <p className="mt-10 text-foreground font-medium">
-            These aren't tool problems. They're knowledge problems. The person who understood it is gone. The reasoning went with them.
+            These are knowledge problems. The person who understood it is gone. The reasoning went with them.
           </p>
         </div>
       </section>
@@ -53,7 +53,7 @@ const Index = () => {
             <div className="bg-background border border-border rounded-lg p-8">
               <h3 className="text-xl text-foreground mb-4">Adobe Workfront</h3>
               <p className="text-secondary-foreground leading-relaxed mb-6">
-                Enterprise work management, engineered like enterprise software. Implementation, Fusion automation, and custom integrations — built by a team that understands both Workfront and the enterprise software it has to talk to.
+                Enterprise work management, engineered like enterprise software. Implementation, Fusion automation, and custom integrations, built by a team that understands both Workfront and the enterprise software it has to talk to.
               </p>
               <Link to="/services/workfront" className="text-primary font-medium hover:underline">
                 Learn more →
@@ -62,7 +62,7 @@ const Index = () => {
             <div className="bg-background border border-border rounded-lg p-8">
               <h3 className="text-xl text-foreground mb-4">AI & Automation</h3>
               <p className="text-secondary-foreground leading-relaxed mb-6">
-                AI without architecture is just faster noise. Strategy, rollout, and automation built around where your teams actually lose time — not where AI demos well.
+                AI without architecture is just faster noise. Strategy, rollout, and automation built around where your teams actually lose time.
               </p>
               <Link to="/services/ai-automation" className="text-primary font-medium hover:underline">
                 Learn more →
@@ -79,7 +79,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { step: "01", title: "Understand", text: "We map what's actually happening before we touch anything." },
-              { step: "02", title: "Design & Build", text: "We build with intent, not just speed." },
+              { step: "02", title: "Design & Build", text: "We build with intent and discipline." },
               { step: "03", title: "Govern", text: "We make sure the system holds after the engagement ends." },
             ].map((item) => (
               <div key={item.step}>
@@ -106,7 +106,7 @@ const Index = () => {
               Every organization has senior people whose judgment holds everything together. They know whether work is ready to start, whether the architecture will hold, whether the handoff will survive. They're also the bottleneck.
             </p>
             <p>
-              Tekmera is building technology that captures that judgment — making it structured, transferable, and durable. So teams can scale their thinking, not just their headcount.
+              Tekmera is building technology that captures that judgment, making it structured, transferable, and durable. So teams can scale their thinking alongside their headcount.
             </p>
             <p className="text-foreground font-medium">
               Our consulting is where we learn what breaks. Our product is how we fix it at scale. Automation is where we start. Clarity is what we're building.

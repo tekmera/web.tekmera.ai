@@ -12,13 +12,13 @@ const Workfront = () => (
 
       <div className="text-secondary-foreground leading-relaxed space-y-4 mb-16">
         <p>
-          Workfront doesn't break in demo. It breaks two years later — when the team that built it has turned over, the business has changed, and the Fusion automations nobody documented are running in production on assumptions that no longer hold.
+          Workfront doesn't break in demo. It breaks two years later, when the team that built it has turned over, the business has changed, and the Fusion automations nobody documented are running in production on assumptions that no longer hold.
         </p>
         <p>
           Most Workfront partners come from project management or marketing operations backgrounds. They configure the platform. Tekmera comes from enterprise software development. We architect it. That means clean data models, scalable architectures, integrations that hold when upstream systems change, and Fusion automations built with production-grade reliability.
         </p>
         <p>
-          30+ enterprise Workfront rollouts across Fortune 500 organizations in financial services, telecom, retail, and professional services. Since 2017. That's not configuration experience — it's experience watching how implementations fail at scale and building the ones that don't.
+          30+ enterprise Workfront rollouts across Fortune 500 organizations in financial services, telecom, retail, and professional services. Since 2017. That's experience watching how implementations fail at scale and building the ones that don't.
         </p>
       </div>
 
@@ -45,17 +45,17 @@ const Workfront = () => (
             An enterprise software development lens applied to a work management platform changes everything about how an implementation is built:
           </p>
           <ul className="space-y-3 pl-5 list-disc marker:text-primary">
-            <li>Data models designed for how the business actually operates, not how the demo looked</li>
-            <li>Fusion automations built with error handling, logging, and maintainability — not demo-grade shortcuts</li>
-            <li>Architectures that scale with the organization instead of becoming the next bottleneck</li>
-            <li>Integrations engineered to hold when upstream systems change, not just when everything is stable</li>
-            <li>Clean handoffs — every decision, dependency, and design choice is documented so your team can own it after the engagement ends</li>
+            <li>Data models designed for how the business actually operates</li>
+            <li>Fusion automations built with error handling, logging, and maintainability</li>
+            <li>Architectures that scale with the organization</li>
+            <li>Integrations engineered to hold when upstream systems change</li>
+            <li>Clean handoffs where every decision, dependency, and design choice is documented so your team can own it after the engagement ends</li>
           </ul>
           <p>
-            The combination of certified Adobe Workfront expertise and enterprise software engineering discipline is rare. Most firms have one or the other. Tekmera has both.
+            The combination of certified Adobe Workfront expertise and enterprise software engineering discipline is rare. Tekmera has both.
           </p>
           <p>
-            A client asks: can Workfront handle our approval workflow? Any partner can answer that. A client asks: can Workfront trigger a process in a custom ERP, pass data through a middleware layer, and write back to an internal API while respecting a security model? That's where most partners bring in someone else. Tekmera designs both sides — the Workfront implementation and the enterprise software it has to talk to. Same conversation. Same team.
+            A client asks: can Workfront handle our approval workflow? Any partner can answer that. A client asks: can Workfront trigger a process in a custom ERP, pass data through a middleware layer, and write back to an internal API while respecting a security model? That's where most partners bring in someone else. Tekmera designs both sides, the Workfront implementation and the enterprise software it has to talk to. Same conversation. Same team.
           </p>
         </div>
       </section>
@@ -69,7 +69,7 @@ const Workfront = () => (
           <li className="border-l-2 border-primary pl-5">Breaks when upstream data shifts</li>
         </ul>
         <p className="text-foreground font-medium mb-8">
-          You don't have a configuration problem. You have an architectural one.
+          You have an architectural problem.
         </p>
         <p className="text-secondary-foreground mb-8">If this is happening inside your team, let's talk.</p>
         <Button variant="cta" size="lg" asChild>

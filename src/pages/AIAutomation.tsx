@@ -12,10 +12,10 @@ const AIAutomation = () => (
 
       <div className="text-secondary-foreground leading-relaxed space-y-4 mb-16">
         <p>
-          Most AI rollouts create more artifacts, not more clarity. Teams produce more code but review more. Ship faster but revert more. Generate documentation no one trusts. Run pilots that stall the moment someone says "production."
+          Most AI rollouts create more artifacts and less clarity. Teams produce more code and review more. Ship faster and revert more. Generate documentation no one trusts. Run pilots that stall the moment someone says "production."
         </p>
         <p>
-          Speed without structure creates artifact proliferation, false confidence, and systems nobody trusts. Tekmera brings an architectural lens to AI adoption — figuring out where AI actually reduces friction and where it needs guardrails to stop amplifying bad structure at scale.
+          Speed without structure creates artifact proliferation, false confidence, and systems nobody trusts. Tekmera brings an architectural lens to AI adoption, figuring out where AI actually reduces friction and where it needs guardrails to stop amplifying bad structure at scale.
         </p>
       </div>
 
@@ -23,12 +23,12 @@ const AIAutomation = () => (
         <h2 className="text-2xl text-foreground mb-6">What we deliver</h2>
         <ul className="space-y-3 text-secondary-foreground">
           {[
-            "AI strategy grounded in where your teams actually lose time — not where AI demos well",
+            "AI strategy grounded in where your teams actually lose time",
             "Organizational AI rollout across engineering, operations, and delivery teams",
-            "Architecture and guardrails that channel AI effort instead of creating noise",
-            "Automation design and build — cross-platform, production-grade",
+            "Architecture and guardrails that channel AI effort into useful outcomes",
+            "Cross-platform, production-grade automation design and build",
             "AI-assisted developer lifecycle integration (PR review, testing, documentation, incident triage)",
-            "Upstream clarity work — requirements, design review, gap analysis — where AI reduces rework before it starts",
+            "Upstream clarity work in requirements, design review, and gap analysis, where AI reduces rework before it starts",
           ].map((item) => (
             <li key={item} className="border-l-2 border-primary pl-5">{item}</li>
           ))}
@@ -39,20 +39,20 @@ const AIAutomation = () => (
         <h2 className="text-2xl text-foreground mb-6">What makes Tekmera different</h2>
         <div className="text-secondary-foreground leading-relaxed space-y-4">
           <p>
-            We've led AI rollouts with 100+ person software organizations and seen what actually sticks. The gains don't come from generating more artifacts. They come from fewer reversals, fewer clarifications, and less rework.
+            We've led AI rollouts with 100+ person software organizations and seen what actually sticks. The gains come from fewer reversals, fewer clarifications, and less rework.
           </p>
           <p>
-            That requires architecture. Without strong boundaries, AI over-centralizes, ignores separation of concerns, and optimizes for quantity over taste. Strong architecture channels AI. Weak architecture creates noise. Tekmera makes sure the architecture is in place before the tooling scales.
+            That requires architecture. Without strong boundaries, AI over-centralizes, ignores separation of concerns, and optimizes for quantity over clarity. Strong architecture channels AI. Weak architecture creates noise. Tekmera makes sure the architecture is in place before the tooling scales.
           </p>
           <p>What we've seen consistently:</p>
           <ul className="space-y-3 pl-5 list-disc marker:text-primary">
-            <li>AI flattens low-value syntax decisions and accelerates templated work — scaffolding, tests, documentation</li>
+            <li>AI flattens low-value syntax decisions and accelerates templated work like scaffolding, tests, and documentation</li>
             <li>It catches small bugs before they become large downstream issues and narrows debugging earlier</li>
             <li>It reduces cognitive overhead during change and review</li>
-            <li>But without guardrails, it generates artifacts faster than anyone can synthesize them, operates with partial context, and produces outputs that sound correct but degrade review discipline</li>
+            <li>Without guardrails, it generates artifacts faster than anyone can synthesize them, operates with partial context, and produces outputs that sound correct while degrading review discipline</li>
           </ul>
           <p className="text-foreground font-medium">
-            The productivity isn't in generating more. It's in reversing less. That's an architecture problem, not a tooling problem.
+            The productivity is in reversing less. That's an architecture problem.
           </p>
         </div>
       </section>
@@ -60,14 +60,14 @@ const AIAutomation = () => (
       <section className="border-t border-border pt-12">
         <h2 className="text-xl text-foreground mb-6">If your team is:</h2>
         <ul className="space-y-3 text-secondary-foreground mb-6">
-          <li className="border-l-2 border-primary pl-5">Producing more code but reviewing more</li>
-          <li className="border-l-2 border-primary pl-5">Shipping faster but reverting more</li>
+          <li className="border-l-2 border-primary pl-5">Producing more code and reviewing more</li>
+          <li className="border-l-2 border-primary pl-5">Shipping faster and reverting more</li>
           <li className="border-l-2 border-primary pl-5">Generating documentation no one trusts</li>
           <li className="border-l-2 border-primary pl-5">Running pilots that stall in production</li>
           <li className="border-l-2 border-primary pl-5">Feeling slower even though the tooling is faster</li>
         </ul>
         <p className="text-foreground font-medium mb-8">
-          You don't have an AI problem. You have an architecture problem.
+          You have an architecture problem.
         </p>
         <p className="text-secondary-foreground mb-8">If this is happening inside your team, let's talk.</p>
         <Button variant="cta" size="lg" asChild>

@@ -13,13 +13,13 @@ const About = () => (
       <section className="mb-16">
         <div className="text-secondary-foreground leading-relaxed space-y-4">
           <p>
-            Tekmera came from 15+ years inside complex enterprise environments — Fortune 100 programs across financial services, telecom, retail, and professional services. Dozens of large-scale initiatives from discovery through long-term operations. The same pattern kept showing up everywhere.
+            Tekmera came from 15+ years inside complex enterprise environments. Fortune 100 programs across financial services, telecom, retail, and professional services. Dozens of large-scale initiatives from discovery through long-term operations. The same pattern kept showing up everywhere.
           </p>
           <p>
             The reasoning behind complex systems doesn't survive. People build, people leave, and the logic, intent, and decisions behind what was built disappear with them. What remains is a system nobody fully understands.
           </p>
           <p>
-            Tekmera exists to fix that. We make the thinking behind complex systems visible, durable, and transferable — first through consulting, and eventually through technology that does it at scale.
+            Tekmera exists to fix that. We make the thinking behind complex systems visible, durable, and transferable, first through consulting, and eventually through technology that does it at scale.
           </p>
           <p className="text-muted-foreground text-sm mt-6">Based in Fredericton, New Brunswick.</p>
         </div>
@@ -32,10 +32,10 @@ const About = () => (
             Clarity before building. The thinking matters more than the tooling.
           </li>
           <li className="border-l-2 border-primary pl-5">
-            Expert judgment is an organizational asset, not a personal trait. It should be captured and transferable.
+            Expert judgment is an organizational asset. It should be captured and transferable.
           </li>
           <li className="border-l-2 border-primary pl-5">
-            Systems should be understandable by anyone, not just the person who built them.
+            Systems should be understandable by anyone who works with them.
           </li>
           <li className="border-l-2 border-primary pl-5">
             The best products come from doing the work first and letting the patterns reveal themselves.
