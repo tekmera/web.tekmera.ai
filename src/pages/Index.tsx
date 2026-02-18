@@ -45,96 +45,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Overview */}
-      <section id="services" className="border-t border-border bg-secondary/50">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <h2 className="text-2xl md:text-3xl text-foreground mb-12">What we do</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-background border border-border rounded-lg p-8">
-              <h3 className="text-xl text-foreground mb-4">Adobe Workfront</h3>
-              <p className="text-secondary-foreground leading-relaxed mb-6">
-                Enterprise work management, engineered like enterprise software. Implementation, Fusion automation, and custom integrations, built by a team that understands both Workfront and the enterprise software it has to talk to.
-              </p>
-              <Link to="/services/workfront" className="text-primary font-medium hover:underline">
-                Learn more →
-              </Link>
-            </div>
-            <div className="bg-background border border-border rounded-lg p-8">
-              <h3 className="text-xl text-foreground mb-4">AI & Automation</h3>
-              <p className="text-secondary-foreground leading-relaxed mb-6">
-                AI without architecture is just faster noise. Strategy, rollout, and automation built around where your teams actually lose time.
-              </p>
-              <Link to="/services/ai-automation" className="text-primary font-medium hover:underline">
-                Learn more →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How We Work Preview */}
-      <section className="border-t border-border">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <h2 className="text-2xl md:text-3xl text-foreground mb-12">How every engagement runs</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { step: "01", title: "Understand", text: "We map what's actually happening before we touch anything." },
-              { step: "02", title: "Design & Build", text: "We build with intent and discipline." },
-              { step: "03", title: "Govern", text: "We make sure the system holds after the engagement ends." },
-            ].map((item) => (
-              <div key={item.step}>
-                <p className="text-primary font-body text-sm font-semibold mb-2">{item.step}</p>
-                <h3 className="text-lg text-foreground mb-2">{item.title}</h3>
-                <p className="text-secondary-foreground text-sm leading-relaxed">{item.text}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-10">
-            <Link to="/how-we-work" className="text-primary font-medium hover:underline">
-              See our full approach →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Vision Section */}
-      <section className="border-t border-border bg-secondary/50">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <h2 className="text-2xl md:text-3xl text-foreground mb-6">Where we're going</h2>
-          <div className="text-secondary-foreground leading-relaxed space-y-4">
-            <p>
-              Every organization has senior people whose judgment holds everything together. They know whether work is ready to start, whether the architecture will hold, whether the handoff will survive. They're also the bottleneck.
-            </p>
-            <p>
-              Tekmera is building technology that captures that judgment, making it structured, transferable, and durable. So teams can scale their thinking alongside their headcount.
-            </p>
-            <p className="text-foreground font-medium">
-              Our consulting is where we learn what breaks. Our product is how we fix it at scale. Automation is where we start. Clarity is what we're building.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Credibility */}
-      <section className="border-t border-border">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <div className="grid sm:grid-cols-2 gap-6">
-            {[
-              "15+ years of experience across Fortune 100 programs",
-              "30+ enterprise rollouts from discovery through long-term operations",
-              "Active in New Brunswick's consulting, enterprise, and nonprofit sectors",
-              "Propel ICT accelerator participant",
-            ].map((item) => (
-              <p key={item} className="text-secondary-foreground text-sm border-l-2 border-border pl-4">
-                {item}
-              </p>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Urgency Block */}
-      <section className="border-t border-border">
+      <section className="border-t border-border bg-secondary/50">
         <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
           <h2 className="text-2xl md:text-3xl text-foreground mb-10">If any of this is on your calendar</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
@@ -149,6 +61,8 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      {/* Services Overview */}
 
       {/* Footer CTA */}
       <section className="border-t border-border bg-foreground">
