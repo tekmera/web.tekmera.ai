@@ -30,14 +30,14 @@ const Index = () => {
       {/* Problem Section */}
       <section className="border-t border-border">
         <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <h2 className="text-2xl md:text-3xl text-foreground mb-10">Sound familiar?</h2>
+          <h2 className="text-2xl md:text-3xl text-foreground mb-10">What we see</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
-            <li className="border-l-2 border-primary pl-5">The person who built your system left. Nobody knows how it works.</li>
-            <li className="border-l-2 border-primary pl-5">Decision logic lives in one person's head. They're the bottleneck.</li>
-            <li className="border-l-2 border-primary pl-5">Every handoff creates rework because the reasoning was never captured.</li>
-            <li className="border-l-2 border-primary pl-5">AI pilots work in demo and stall in production.</li>
-            <li className="border-l-2 border-primary pl-5">You're scaling by adding people because the system itself is opaque.</li>
-            <li className="border-l-2 border-primary pl-5">Nobody fully understands what was built or why it was built that way.</li>
+            <li className="border-l-2 border-primary pl-5">Your Workfront environment was configured three years ago. The person who set it up is gone. Nobody wants to touch the Fusion scenarios.</li>
+            <li className="border-l-2 border-primary pl-5">Your AI pilot impressed leadership in demo. Six months later it's still not in production.</li>
+            <li className="border-l-2 border-primary pl-5">You're paying a Workfront partner to configure things you could own if anyone on your team understood the architecture.</li>
+            <li className="border-l-2 border-primary pl-5">Every integration breaks when something upstream changes because nobody mapped the dependencies.</li>
+            <li className="border-l-2 border-primary pl-5">Your developers are generating more code with AI and shipping slower because review and rework doubled.</li>
+            <li className="border-l-2 border-primary pl-5">The system works. But only one person knows why, and they're tired.</li>
           </ul>
           <p className="mt-10 text-foreground font-medium mb-8">
             If this is happening inside your team, talk to us before you touch the next change.
