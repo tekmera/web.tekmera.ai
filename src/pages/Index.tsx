@@ -133,6 +133,23 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Urgency Block */}
+      <section className="border-t border-border">
+        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
+          <h2 className="text-2xl md:text-3xl text-foreground mb-10">If any of this is on your calendar</h2>
+          <ul className="space-y-5 text-secondary-foreground leading-relaxed">
+            <li className="border-l-2 border-primary pl-5">You're about to modify a live system and the person who built it is gone.</li>
+            <li className="border-l-2 border-primary pl-5">You're scaling past the one senior person who holds everything together.</li>
+            <li className="border-l-2 border-primary pl-5">You're onboarding a team into something nobody documented.</li>
+            <li className="border-l-2 border-primary pl-5">You're deploying AI into a workflow that already breaks under pressure.</li>
+            <li className="border-l-2 border-primary pl-5">You're handing off a system and there's no clean way to explain how it works.</li>
+          </ul>
+          <p className="mt-10 text-foreground font-medium">
+            These are the moments where the cost of unclear systems shows up. Talk to us before you're in the middle of it.
+          </p>
+        </div>
+      </section>
+
       {/* Footer CTA */}
       <section className="border-t border-border bg-foreground">
         <div className="max-w-3xl mx-auto px-6 py-16 md:py-24 text-center">
