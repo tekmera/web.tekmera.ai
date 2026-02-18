@@ -89,6 +89,24 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Credibility */}
+      <section className="border-t border-border">
+        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
+          <div className="grid sm:grid-cols-2 gap-6">
+            {[
+              "15+ years of experience across Fortune 100 programs",
+              "30+ enterprise rollouts from discovery through long-term operations",
+              "Active in New Brunswick's consulting, enterprise, and nonprofit sectors",
+              "Propel ICT accelerator participant",
+            ].map((item) => (
+              <p key={item} className="text-secondary-foreground text-sm border-l-2 border-border pl-4">
+                {item}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How We Work Preview */}
       <section className="border-t border-border">
         <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
@@ -128,24 +146,6 @@ const Index = () => {
             <p className="text-foreground font-medium">
               Our consulting is where we learn what breaks. Our product is how we fix it at scale. Automation is where we start. Clarity is what we're building.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Credibility */}
-      <section className="border-t border-border">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <div className="grid sm:grid-cols-2 gap-6">
-            {[
-              "15+ years of experience across Fortune 100 programs",
-              "30+ enterprise rollouts from discovery through long-term operations",
-              "Active in New Brunswick's consulting, enterprise, and nonprofit sectors",
-              "Propel ICT accelerator participant",
-            ].map((item) => (
-              <p key={item} className="text-secondary-foreground text-sm border-l-2 border-border pl-4">
-                {item}
-              </p>
-            ))}
           </div>
         </div>
       </section>
