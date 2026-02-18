@@ -57,6 +57,30 @@ const AIAutomation = () => (
         </div>
       </section>
 
+      <section className="mb-16">
+        <h2 className="text-2xl text-foreground mb-6">Integrations we've built</h2>
+        <div className="flex flex-wrap gap-3">
+          {[
+            "Workfront",
+            "Salesforce",
+            "Jira",
+            "Monday.com",
+            "AWS",
+            "Database Systems",
+            "SAP",
+            "Custom APIs",
+            "Internal Enterprise Systems",
+          ].map((item) => (
+            <span
+              key={item}
+              className="border border-border rounded-full px-4 py-2 text-sm text-secondary-foreground"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </section>
+
       <section className="border-t border-border pt-12">
         <h2 className="text-xl text-foreground mb-6">If your team is:</h2>
         <ul className="space-y-3 text-secondary-foreground mb-6">
