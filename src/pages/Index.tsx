@@ -33,32 +33,20 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl text-foreground mb-10">Sound familiar?</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
             <li className="border-l-2 border-primary pl-5">The person who built your system left. Nobody knows how it works.</li>
-            <li className="border-l-2 border-primary pl-5">Decision logic lives in one person's head. They're the bottleneck for everything.</li>
+            <li className="border-l-2 border-primary pl-5">Decision logic lives in one person's head. They're the bottleneck.</li>
             <li className="border-l-2 border-primary pl-5">Every handoff creates rework because the reasoning was never captured.</li>
-            <li className="border-l-2 border-primary pl-5">AI pilots that work in demos and stall the moment someone says "production."</li>
+            <li className="border-l-2 border-primary pl-5">AI pilots work in demo and stall in production.</li>
             <li className="border-l-2 border-primary pl-5">You're scaling by adding people because the system itself is opaque.</li>
             <li className="border-l-2 border-primary pl-5">Nobody fully understands what was built or why it was built that way.</li>
           </ul>
-          <p className="mt-10 text-foreground font-medium">
-            These are knowledge problems. The person who understood it is gone. The reasoning went with them.
+          <p className="mt-10 text-foreground font-medium mb-8">
+            If this is happening inside your team, talk to us before you touch the next change.
           </p>
-        </div>
-      </section>
-
-      {/* Urgency Block */}
-      <section className="border-t border-border">
-        <div className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-          <h2 className="text-2xl md:text-3xl text-foreground mb-10">If any of this is on your calendar</h2>
-          <ul className="space-y-5 text-secondary-foreground leading-relaxed">
-            <li className="border-l-2 border-primary pl-5">You're about to modify a live system and the person who built it is gone.</li>
-            <li className="border-l-2 border-primary pl-5">You're scaling past the one senior person who holds everything together.</li>
-            <li className="border-l-2 border-primary pl-5">You're onboarding a team into something nobody documented.</li>
-            <li className="border-l-2 border-primary pl-5">You're deploying AI into a workflow that already breaks under pressure.</li>
-            <li className="border-l-2 border-primary pl-5">You're handing off a system and there's no clean way to explain how it works.</li>
-          </ul>
-          <p className="mt-10 text-foreground font-medium">
-            These are the moments where the cost of unclear systems shows up. Talk to us before you're in the middle of it.
-          </p>
+          <Button variant="cta" size="lg" asChild>
+            <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+              Book an Introductory Strategy Call
+            </a>
+          </Button>
         </div>
       </section>
 
