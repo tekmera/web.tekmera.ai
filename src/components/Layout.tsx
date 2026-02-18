@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
+import tekmeraIcon from "@/assets/tekmera_icon.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
 
@@ -28,8 +29,9 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="font-heading text-2xl text-foreground tracking-tight italic">
-          Tekmera
+        <Link to="/" className="flex items-center gap-2">
+          <img src={tekmeraIcon} alt="Tekmera" className="h-8 w-auto" />
+          <span className="font-heading text-2xl text-foreground tracking-tight italic">Tekmera</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -107,7 +109,10 @@ const Footer = () => (
   <footer className="border-t border-border mt-24">
     <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
       <div>
-        <p className="font-heading text-xl italic text-foreground mb-2">Tekmera</p>
+        <p className="font-heading text-xl italic text-foreground mb-2 flex items-center gap-2">
+          <img src={tekmeraIcon} alt="Tekmera" className="h-6 w-auto" />
+          Tekmera
+        </p>
         <p className="text-sm text-muted-foreground">Fredericton, New Brunswick, Canada</p>
         <a href="mailto:contact@tekmera.ai" className="text-sm text-primary hover:underline">
           contact@tekmera.ai
