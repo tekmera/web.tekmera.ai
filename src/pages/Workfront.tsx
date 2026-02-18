@@ -12,7 +12,7 @@ const Workfront = () => (
 
       <div className="text-secondary-foreground leading-relaxed space-y-4 mb-16">
         <p>
-          Workfront doesn't break in demo. It breaks two years later — when teams change, business priorities shift, and
+          Workfront doesn't break in demo. It breaks two years later, when teams change, business priorities shift, and
           Fusion automations are running in production on assumptions no one remembers making.
         </p>
         <p>
@@ -23,7 +23,7 @@ const Workfront = () => (
         <p>
           Since 2017, we've led 30+ enterprise Workfront rollouts across Fortune 500 organizations in financial services,
           telecom, retail, and professional services. That experience comes from seeing how implementations behave at
-          scale — and designing them to endure.
+          scale, and designing them to endure.
         </p>
       </div>
 
@@ -63,8 +63,8 @@ const Workfront = () => (
             Tekmera combines certified Adobe Workfront expertise with enterprise software engineering depth.
           </p>
           <p>
-            When the conversation extends beyond configuration — into integration design, data modeling, middleware
-            coordination, or security alignment — it stays in one room, with one team.
+            When the conversation extends beyond configuration, into integration design, data modeling, middleware
+            coordination, or security alignment, it stays in one room, with one team.
           </p>
         </div>
       </section>
