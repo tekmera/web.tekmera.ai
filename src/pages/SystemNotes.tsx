@@ -29,6 +29,14 @@ const SystemNotes = () => (
                 AI Without Architecture Breaks Faster
               </Link>
             </li>
+            <li>
+              <Link
+                to="/system-notes/structure-before-speed"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                Structure Before Speed
+              </Link>
+            </li>
           </ul>
         </div>
 
