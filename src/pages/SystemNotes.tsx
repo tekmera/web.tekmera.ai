@@ -22,7 +22,12 @@ const SystemNotes = () => (
           </p>
           <ul className="space-y-3">
             <li>
-              <span className="text-muted-foreground/50 text-sm">Coming soon</span>
+              <Link
+                to="/system-notes/ai-without-architecture"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                AI Without Architecture Breaks Faster
+              </Link>
             </li>
           </ul>
         </div>
