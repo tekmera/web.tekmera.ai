@@ -8,7 +8,7 @@ const SystemNotes = () => (
         System Notes
       </h1>
       <p className="text-secondary-foreground leading-relaxed mb-16">
-        Short, practical observations on systems, architecture, and automation. From real environments, not theory.
+        Short, practical observations on systems, architecture, and automation.
       </p>
 
       <div className="grid md:grid-cols-3 gap-12 md:gap-8">
