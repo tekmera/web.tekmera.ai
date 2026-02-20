@@ -1,0 +1,69 @@
+import { Link } from "react-router-dom";
+import Layout from "@/components/Layout";
+
+const SystemNotes = () => (
+  <Layout>
+    <article className="max-w-3xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-24">
+      <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-4">
+        System Notes
+      </h1>
+      <p className="text-secondary-foreground leading-relaxed mb-16">
+        Short, practical observations on systems, architecture, and automation. From real environments, not theory.
+      </p>
+
+      <div className="grid md:grid-cols-3 gap-12 md:gap-8">
+        {/* Principles */}
+        <div>
+          <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
+            Principles
+          </h2>
+          <p className="text-sm text-muted-foreground mb-6">
+            Core theses on how systems behave.
+          </p>
+          <ul className="space-y-3">
+            <li>
+              <span className="text-muted-foreground/50 text-sm">Coming soon</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Field Cases */}
+        <div>
+          <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
+            Field Cases
+          </h2>
+          <p className="text-sm text-muted-foreground mb-6">
+            Observations from real environments.
+          </p>
+          <ul className="space-y-3">
+            <li>
+              <span className="text-muted-foreground/50 text-sm">Coming soon</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Clarity Audits */}
+        <div>
+          <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
+            Clarity Audits
+          </h2>
+          <p className="text-sm text-muted-foreground mb-6">
+            Architectural readouts from system reviews.
+          </p>
+          <ul className="space-y-3">
+            <li>
+              <Link
+                to="/system-notes/it-never-stopped-running"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                It Never Stopped Running
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </Layout>
+);
+
+export default SystemNotes;
