@@ -12,6 +12,8 @@ import HowWeWork from "./pages/HowWeWork";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import SystemNotes from "./pages/SystemNotes";
+import ItNeverStoppedRunning from "./pages/system-notes/ItNeverStoppedRunning";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +39,8 @@ const App = () => (
           <Route path="/how-we-work" element={<HowWeWork />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/system-notes" element={<SystemNotes />} />
+          <Route path="/system-notes/it-never-stopped-running" element={<ItNeverStoppedRunning />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
