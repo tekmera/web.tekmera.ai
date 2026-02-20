@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound";
 import SystemNotes from "./pages/SystemNotes";
 import ItNeverStoppedRunning from "./pages/system-notes/ItNeverStoppedRunning";
 import ItLookedLikeATree from "./pages/system-notes/ItLookedLikeATree";
+import ItCouldntSeeItself from "./pages/system-notes/ItCouldntSeeItself";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +44,7 @@ const App = () => (
           <Route path="/system-notes" element={<SystemNotes />} />
           <Route path="/system-notes/it-never-stopped-running" element={<ItNeverStoppedRunning />} />
           <Route path="/system-notes/it-looked-like-a-tree" element={<ItLookedLikeATree />} />
+          <Route path="/system-notes/it-couldnt-see-itself" element={<ItCouldntSeeItself />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
