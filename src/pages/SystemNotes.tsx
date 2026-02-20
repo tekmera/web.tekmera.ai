@@ -18,7 +18,7 @@ const SystemNotes = () => (
             Principles
           </h2>
           <p className="text-sm text-muted-foreground mb-6">
-            How systems behave, why they drift, and what holds them together.
+            Core theses on architecture, governance, and system design.
           </p>
           <ul className="space-y-3">
             <li>
