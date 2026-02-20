@@ -67,6 +67,14 @@ const SystemNotes = () => (
                 It Looked Like a Tree
               </Link>
             </li>
+            <li>
+              <Link
+                to="/system-notes/it-couldnt-see-itself"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                It Couldn't See Itself
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
