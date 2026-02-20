@@ -63,11 +63,11 @@ const Header = () => {
           <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
             How We Work
           </Link>
-          <Link to="/about" className="text-secondary-foreground hover:text-foreground transition-colors">
-            About
-          </Link>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground transition-colors">
             From the Field
+          </Link>
+          <Link to="/about" className="text-secondary-foreground hover:text-foreground transition-colors">
+            About
           </Link>
           <Link to="/contact" className="text-secondary-foreground hover:text-foreground transition-colors">
             Contact
@@ -95,11 +95,11 @@ const Header = () => {
             <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
               How We Work
             </Link>
-            <Link to="/about" className="text-secondary-foreground hover:text-foreground">
-              About
-            </Link>
             <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">
               From the Field
+            </Link>
+            <Link to="/about" className="text-secondary-foreground hover:text-foreground">
+              About
             </Link>
             <Link to="/contact" className="text-secondary-foreground hover:text-foreground">
               Contact
@@ -128,8 +128,8 @@ const Footer = () => (
         <Link to="/services/workfront" className="text-secondary-foreground hover:text-foreground">Adobe Workfront</Link>
         <Link to="/services/ai-automation" className="text-secondary-foreground hover:text-foreground">AI & Automation</Link>
         <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">How We Work</Link>
-        <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
         <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
+        <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
         <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
       </div>
       <div>
