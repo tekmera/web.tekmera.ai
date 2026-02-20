@@ -20,11 +20,8 @@ const ItLookedLikeATree = () => (
       </div>
 
       <div className="text-secondary-foreground leading-relaxed space-y-4">
-        <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
-          Context
-        </p>
         <p>
-          Each Clarity Audit documents a real system engagement. Not as a case study. As an architectural readout. The goal isn't to celebrate fixes. It's to surface structure.
+          Each Clarity Audit documents a real system engagement. An architectural readout. The goal is to surface structure.
         </p>
 
         <p className="text-foreground font-medium mt-10">
@@ -60,7 +57,7 @@ const ItLookedLikeATree = () => (
         </p>
         <p>Some failures were subtle.</p>
         <p>
-          One branch tried to pull a project's parent but was actually pulling the parent of the parent. The wrong ID was written across dozens of records. The logic wasn't wrong everywhere. Just inconsistent in enough places to be dangerous.
+          One branch tried to pull a project's parent but was actually pulling the parent of the parent. The wrong ID was written across dozens of records. The logic was inconsistent in just enough places to be dangerous.
         </p>
         <p>Other failures were louder.</p>
         <p>
