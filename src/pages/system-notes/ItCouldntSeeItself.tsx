@@ -20,11 +20,8 @@ const ItCouldntSeeItself = () => (
       </div>
 
       <div className="text-secondary-foreground leading-relaxed space-y-4">
-        <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
-          Context
-        </p>
         <p>
-          Each Clarity Audit documents a real system engagement. Not as a case study. As an architectural readout. The goal isn't to celebrate fixes. It's to surface structure.
+          Each Clarity Audit documents a real system engagement. An architectural readout. The goal is to surface structure.
         </p>
 
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
@@ -52,7 +49,7 @@ const ItCouldntSeeItself = () => (
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
           Contributing Factors
         </p>
-        <p>The root cause was a single space. The real problem was that nothing in the system's design would have caught it.</p>
+        <p>A single space triggered 30,000 duplicates. Nothing in the system's design would have caught it.</p>
         <ul className="space-y-3 pl-5 list-disc marker:text-primary">
           <li><span className="text-foreground font-medium">No shared key definition.</span> Search and create formulas were written independently.</li>
           <li><span className="text-foreground font-medium">No normalization.</span> No trimming, case standardization, or whitespace handling before comparison.</li>
@@ -80,7 +77,7 @@ const ItCouldntSeeItself = () => (
           It could search. It could create. But it had no shared, normalized concept of identity across those two operations. Each one constructed its own version of what a record looked like, independently, and nobody tested whether they agreed.
         </p>
         <p>
-          A single space was the trigger. But the real gap was architectural. Any system that must recognize the same entity twice needs one method of identification, shared across every operation that constructs or compares keys. Tested. Normalized. Visible.
+          Any system that must recognize the same entity twice needs one method of identification, shared across every operation that constructs or compares keys. Tested. Normalized. Visible.
         </p>
         <p className="text-foreground font-medium mt-6">
           Without that, the system can't see itself. And when a system can't see itself, it duplicates, contradicts, and erodes trust in every record it touches.
