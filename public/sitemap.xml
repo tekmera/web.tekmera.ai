@@ -44,4 +44,8 @@
     <loc>https://tekmera.ai/system-notes/ai-without-architecture</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/structure-before-speed</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>

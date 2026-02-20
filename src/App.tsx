@@ -17,6 +17,7 @@ import ItNeverStoppedRunning from "./pages/system-notes/ItNeverStoppedRunning";
 import ItLookedLikeATree from "./pages/system-notes/ItLookedLikeATree";
 import ItCouldntSeeItself from "./pages/system-notes/ItCouldntSeeItself";
 import AIWithoutArchitecture from "./pages/system-notes/AIWithoutArchitecture";
+import StructureBeforeSpeed from "./pages/system-notes/StructureBeforeSpeed";
 
 const queryClient = new QueryClient();
 
@@ -47,6 +48,7 @@ const App = () => (
           <Route path="/system-notes/it-looked-like-a-tree" element={<ItLookedLikeATree />} />
           <Route path="/system-notes/it-couldnt-see-itself" element={<ItCouldntSeeItself />} />
           <Route path="/system-notes/ai-without-architecture" element={<AIWithoutArchitecture />} />
+          <Route path="/system-notes/structure-before-speed" element={<StructureBeforeSpeed />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
