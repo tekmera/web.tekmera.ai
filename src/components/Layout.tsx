@@ -67,7 +67,7 @@ const Header = () => {
             About
           </Link>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground transition-colors">
-            System Notes
+            From the Field
           </Link>
           <Link to="/contact" className="text-secondary-foreground hover:text-foreground transition-colors">
             Contact
@@ -99,7 +99,7 @@ const Header = () => {
               About
             </Link>
             <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">
-              System Notes
+              From the Field
             </Link>
             <Link to="/contact" className="text-secondary-foreground hover:text-foreground">
               Contact
@@ -129,7 +129,7 @@ const Footer = () => (
         <Link to="/services/ai-automation" className="text-secondary-foreground hover:text-foreground">AI & Automation</Link>
         <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">How We Work</Link>
         <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
-        <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">System Notes</Link>
+        <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
         <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
       </div>
       <div>

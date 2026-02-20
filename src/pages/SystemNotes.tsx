@@ -5,20 +5,20 @@ const SystemNotes = () => (
   <Layout>
     <article className="max-w-3xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-24">
       <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-4">
-        System Notes
+        From the Field
       </h1>
       <p className="text-secondary-foreground leading-relaxed mb-16">
         Observations from real system engagements. How systems break, why they drift, and what changes when they're rebuilt with intent.
       </p>
 
-      <div className="grid md:grid-cols-3 gap-12 md:gap-8">
+      <div className="grid md:grid-cols-2 gap-12 md:gap-8">
         {/* Principles */}
         <div>
           <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
             Principles
           </h2>
           <p className="text-sm text-muted-foreground mb-6">
-            Core theses on how systems behave.
+            How systems behave.
           </p>
           <ul className="space-y-3">
             <li>
@@ -40,13 +40,13 @@ const SystemNotes = () => (
           </ul>
         </div>
 
-        {/* Field Cases */}
+        {/* Field Work */}
         <div>
           <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
-            Field Cases
+            Field Work
           </h2>
           <p className="text-sm text-muted-foreground mb-6">
-            Observations from real environments.
+            Observations and architectural readouts from real engagements.
           </p>
           <ul className="space-y-3">
             <li>
@@ -57,18 +57,6 @@ const SystemNotes = () => (
                 The Runaway "One-Time" Scenario
               </Link>
             </li>
-          </ul>
-        </div>
-
-        {/* Clarity Audits */}
-        <div>
-          <h2 className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-6">
-            Clarity Audits
-          </h2>
-          <p className="text-sm text-muted-foreground mb-6">
-            Architectural readouts from real engagements. What the system allowed, how it behaved, and what changed.
-          </p>
-          <ul className="space-y-3">
             <li>
               <Link
                 to="/system-notes/it-never-stopped-running"

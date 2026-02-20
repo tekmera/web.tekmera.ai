@@ -7,9 +7,9 @@ const ItNeverStoppedRunning = () => (
       <div className="mb-12">
         <p className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-4">
           <Link to="/system-notes" className="hover:text-foreground transition-colors">
-            System Notes
+            From the Field
           </Link>
-          {" "}/ Clarity Audit
+          {" "}/ Field Work
         </p>
         <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-6">
           It Never Stopped Running
@@ -132,7 +132,7 @@ const ItNeverStoppedRunning = () => (
 
       <div className="border-t border-border mt-16 pt-8">
         <Link to="/system-notes" className="text-primary font-medium hover:underline">
-          ← Back to System Notes
+          ← Back to From the Field
         </Link>
       </div>
     </article>

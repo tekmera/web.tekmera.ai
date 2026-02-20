@@ -7,7 +7,7 @@ const AIWithoutArchitecture = () => (
       <div className="mb-12">
         <p className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-4">
           <Link to="/system-notes" className="hover:text-foreground transition-colors">
-            System Notes
+            From the Field
           </Link>
           {" "}/ Principles
         </p>
@@ -93,7 +93,7 @@ const AIWithoutArchitecture = () => (
 
       <div className="border-t border-border mt-16 pt-8">
         <Link to="/system-notes" className="text-primary font-medium hover:underline">
-          ← Back to System Notes
+          ← Back to From the Field
         </Link>
       </div>
     </article>
