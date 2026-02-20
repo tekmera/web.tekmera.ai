@@ -8,7 +8,7 @@ const SystemNotes = () => (
         From the Field
       </h1>
       <p className="text-secondary-foreground leading-relaxed mb-16">
-        Observations from real system engagements. How systems break, why they drift, and what changes when they're rebuilt with intent.
+        How systems break, why they drift, and what changes when they're rebuilt with intent.
       </p>
 
       <div className="grid md:grid-cols-2 gap-12 md:gap-8">
@@ -54,7 +54,7 @@ const SystemNotes = () => (
             Field Work
           </h2>
           <p className="text-sm text-muted-foreground mb-6">
-            Observations and architectural readouts from real engagements.
+            What we found inside real systems, and what changed.
           </p>
           <ul className="space-y-3">
             <li>
