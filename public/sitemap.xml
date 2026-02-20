@@ -48,4 +48,8 @@
     <loc>https://tekmera.ai/system-notes/structure-before-speed</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/runaway-one-time-scenario</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
