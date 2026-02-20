@@ -37,6 +37,14 @@ const SystemNotes = () => (
                 Structure Before Speed
               </Link>
             </li>
+            <li>
+              <Link
+                to="/system-notes/systems-show-themselves"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                Systems Show Themselves at the Edges
+              </Link>
+            </li>
           </ul>
         </div>
 
