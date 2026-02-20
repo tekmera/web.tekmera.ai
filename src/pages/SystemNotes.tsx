@@ -8,7 +8,7 @@ const SystemNotes = () => (
         System Notes
       </h1>
       <p className="text-secondary-foreground leading-relaxed mb-16">
-        Short, practical observations on systems, architecture, and automation.
+        Observations from real system engagements. How systems break, why they drift, and what changes when they're rebuilt with intent.
       </p>
 
       <div className="grid md:grid-cols-3 gap-12 md:gap-8">
@@ -66,7 +66,7 @@ const SystemNotes = () => (
             Clarity Audits
           </h2>
           <p className="text-sm text-muted-foreground mb-6">
-            Architectural readouts from system reviews.
+            Architectural readouts from real engagements. What the system allowed, how it behaved, and what changed.
           </p>
           <ul className="space-y-3">
             <li>
