@@ -59,6 +59,14 @@ const SystemNotes = () => (
                 It Never Stopped Running
               </Link>
             </li>
+            <li>
+              <Link
+                to="/system-notes/it-looked-like-a-tree"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                It Looked Like a Tree
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
