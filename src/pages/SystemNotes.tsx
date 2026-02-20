@@ -50,7 +50,12 @@ const SystemNotes = () => (
           </p>
           <ul className="space-y-3">
             <li>
-              <span className="text-muted-foreground/50 text-sm">Coming soon</span>
+              <Link
+                to="/system-notes/runaway-one-time-scenario"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                The Runaway "One-Time" Scenario
+              </Link>
             </li>
           </ul>
         </div>
