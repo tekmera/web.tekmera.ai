@@ -20,11 +20,8 @@ const ItNeverStoppedRunning = () => (
       </div>
 
       <div className="text-secondary-foreground leading-relaxed space-y-4">
-        <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
-          Context
-        </p>
         <p>
-          Each Clarity Audit documents a real system engagement. Not as a case study. As an architectural readout. The goal isn't to celebrate fixes. It's to surface structure.
+          Each Clarity Audit documents a real system engagement. An architectural readout. The goal is to surface structure.
         </p>
 
         <p className="text-foreground font-medium mt-10">Every Friday, the system buckled.</p>
@@ -45,15 +42,15 @@ const ItNeverStoppedRunning = () => (
           <li>The project update then triggered recalculation on the parent project</li>
         </ul>
         <p>
-          This wasn't incidental behavior. It was wired in. The system used event-based triggers to keep everything in sync. On paper, that looked like automation. In practice, it was a recursive loop with no limit and no boundaries.
+          The behavior was wired in. The system used event-based triggers to keep everything in sync. On paper, that looked like automation. In practice, it was a recursive loop with no limit and no boundaries.
         </p>
         <p>
-          Each automation flow was scoped by name — hour logic, project rollup, aggregate flow — but not by execution context.
+          Each automation flow was scoped by name (hour logic, project rollup, aggregate flow) but not by execution context.
         </p>
         <p>One process updated another, which kicked off another, which reached back into the first.</p>
         <p>None of this was visible in a single place.</p>
         <p>
-          This was webhook storm chaos. An architecture where every small input is treated as an urgent event, without boundaries, batching, or orchestration.
+          Webhook storm chaos. An architecture where every small input is treated as an urgent event, without boundaries, batching, or orchestration.
         </p>
         <p>By Friday afternoon, the system was saturated.</p>
         <p>
@@ -68,7 +65,7 @@ const ItNeverStoppedRunning = () => (
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
           The Fix
         </p>
-        <p>The problem wasn't the number of entries. It was the decision to treat every entry as urgent.</p>
+        <p>The problem was the decision to treat every entry as urgent.</p>
         <p>The fix was structural.</p>
         <p>
           Instead of triggering a full chain of calculations for every time entry, a custom field was added to projects: <span className="text-foreground font-medium">requires time roll-up</span>.
@@ -112,20 +109,16 @@ const ItNeverStoppedRunning = () => (
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-12">
           What This Really Was
         </p>
-        <p>This wasn't a suppression. It was a realignment.</p>
         <p>
-          The platform made it easy to react, to build flows that launched on every change.
+          The platform made it easy to react, to build flows that launched on every change. But the business process was batch. It needed rhythm. And integrity.
         </p>
         <p>
-          But the business process wasn't reactive. It was batch. It didn't need speed. It needed rhythm. And integrity.
-        </p>
-        <p>
-          The system expected regular input. What it got was thousands of people rushing to close their week. It wasn't designed for human behavior. Just data flow.
-        </p>
-        <p>
-          Replacing automatic reaction with buffered control didn't limit the system. It made the system finally do what it was meant to do.
+          The system expected regular input. What it got was thousands of people rushing to close their week. It was designed for data flow, not human behavior.
         </p>
         <p className="text-foreground font-medium mt-6">
+          Replacing automatic reaction with buffered control didn't limit the system. It made the system finally do what it was meant to do.
+        </p>
+        <p className="text-foreground font-medium">
           Now it runs on purpose, at the right time, for the right reason. And the numbers can finally be trusted.
         </p>
       </div>
