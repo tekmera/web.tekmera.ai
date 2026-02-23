@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
+import davidPhoto from "@/assets/david-kershaw.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
 
@@ -22,6 +23,24 @@ const About = () => (
             Tekmera exists to fix that. We make the thinking behind complex systems visible, durable, and transferable, first through consulting, and eventually through technology that does it at scale.
           </p>
           <p className="text-muted-foreground text-sm mt-6">Based in Fredericton, New Brunswick.</p>
+        </div>
+      </section>
+
+      <section className="border-t border-border pt-12 mb-16">
+        <h2 className="text-2xl text-foreground mb-8">Founder</h2>
+        <div className="flex flex-col sm:flex-row gap-8 items-start">
+          <img
+            src={davidPhoto}
+            alt="David Kershaw, Founder of Tekmera"
+            className="w-36 h-36 rounded-full object-cover object-top flex-shrink-0"
+          />
+          <div>
+            <h3 className="text-lg font-heading text-foreground mb-1">David Kershaw</h3>
+            <p className="text-sm text-muted-foreground mb-3">Founder</p>
+            <p className="text-secondary-foreground leading-relaxed">
+              15+ years delivering enterprise systems architecture across Fortune 100 organizations. Enterprise Architecture, Workfront, AI, and automation environments at scale.
+            </p>
+          </div>
         </div>
       </section>
 
