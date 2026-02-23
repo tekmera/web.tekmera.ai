@@ -27,7 +27,7 @@ const About = () => (
       </section>
 
       <section className="border-t border-border pt-12 mb-16">
-        <h2 className="text-2xl text-foreground mb-8">Founder</h2>
+        <h2 className="text-2xl text-foreground mb-8">Who's behind Tekmera</h2>
         <div className="flex flex-col sm:flex-row gap-8 items-start">
           <img
             src={davidPhoto}
