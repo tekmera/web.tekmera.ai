@@ -62,24 +62,6 @@ const About = () => (
         </div>
       </section>
 
-      {/* Track Record */}
-      <section className="border-t border-border pt-12 mb-16">
-        <h2 className="text-2xl text-foreground mb-10">Track Record</h2>
-
-        <h3 className="text-lg font-heading text-foreground mb-4">Enterprise</h3>
-        <ul className="space-y-3 text-secondary-foreground leading-relaxed list-disc pl-5 mb-10">
-          <li>Reduced automation operations by 50% across a major enterprise environment by replacing reactive webhook cascades with controlled batch processing</li>
-          <li>Rebuilt a 250-module automation flow into 35 modules — cutting runtime from 60+ minutes to under 20 with zero loss in functionality</li>
-          <li>Identified and resolved 30,000 duplicate records caused by a single whitespace inconsistency in key generation logic</li>
-          <li>Caught a runaway "one-time" scenario that silently consumed 15 million operations over three months</li>
-        </ul>
-
-        <h3 className="text-lg font-heading text-foreground mb-4">Studio</h3>
-        <p className="text-secondary-foreground leading-relaxed">
-          First studio engagements are underway. Case studies will be published here as projects ship.
-        </p>
-      </section>
-
       {/* CTA */}
       <Button variant="cta" size="lg" asChild>
         <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
