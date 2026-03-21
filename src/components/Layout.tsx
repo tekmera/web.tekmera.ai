@@ -36,30 +36,6 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-body font-medium">
-          <div className="relative" ref={dropdownRef}>
-            <button
-              onClick={() => setServicesOpen(!servicesOpen)}
-              className="flex items-center gap-1 text-secondary-foreground hover:text-foreground transition-colors"
-            >
-              Services <ChevronDown className="w-3.5 h-3.5" />
-            </button>
-            {servicesOpen && (
-              <div className="absolute top-full left-0 mt-2 w-52 bg-background border border-border rounded-lg shadow-lg py-2 animate-fade-in">
-                <Link
-                  to="/services/workfront"
-                  className="block px-4 py-2.5 text-secondary-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                >
-                  Adobe Workfront
-                </Link>
-                <Link
-                  to="/services/ai-automation"
-                  className="block px-4 py-2.5 text-secondary-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                >
-                  AI & Automation
-                </Link>
-              </div>
-            )}
-          </div>
           <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
             How We Work
           </Link>
