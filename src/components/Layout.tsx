@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import tekmeraIcon from "@/assets/tekmera_icon.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
