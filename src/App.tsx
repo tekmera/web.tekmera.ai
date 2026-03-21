@@ -6,8 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Index from "./pages/Index";
-import Workfront from "./pages/Workfront";
-import AIAutomation from "./pages/AIAutomation";
 import HowWeWork from "./pages/HowWeWork";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
