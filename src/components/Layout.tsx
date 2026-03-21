@@ -1,30 +1,17 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import tekmeraIcon from "@/assets/tekmera_icon.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
 
 const Header = () => {
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
 
   useEffect(() => {
     setMobileOpen(false);
-    setServicesOpen(false);
   }, [location.pathname]);
-
-  useEffect(() => {
-    const handleClick = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setServicesOpen(false);
-      }
-    };
-    document.addEventListener("click", handleClick);
-    return () => document.removeEventListener("click", handleClick);
-  }, []);
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -36,30 +23,6 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-body font-medium">
-          <div className="relative" ref={dropdownRef}>
-            <button
-              onClick={() => setServicesOpen(!servicesOpen)}
-              className="flex items-center gap-1 text-secondary-foreground hover:text-foreground transition-colors"
-            >
-              Services <ChevronDown className="w-3.5 h-3.5" />
-            </button>
-            {servicesOpen && (
-              <div className="absolute top-full left-0 mt-2 w-52 bg-background border border-border rounded-lg shadow-lg py-2 animate-fade-in">
-                <Link
-                  to="/services/workfront"
-                  className="block px-4 py-2.5 text-secondary-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                >
-                  Adobe Workfront
-                </Link>
-                <Link
-                  to="/services/ai-automation"
-                  className="block px-4 py-2.5 text-secondary-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                >
-                  AI & Automation
-                </Link>
-              </div>
-            )}
-          </div>
           <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
             How We Work
           </Link>
@@ -84,14 +47,6 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden border-t border-border bg-background animate-fade-in">
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
-            <p className="text-muted-foreground text-xs uppercase tracking-wider">Services</p>
-            <Link to="/services/workfront" className="text-secondary-foreground hover:text-foreground pl-2">
-              Adobe Workfront
-            </Link>
-            <Link to="/services/ai-automation" className="text-secondary-foreground hover:text-foreground pl-2">
-              AI & Automation
-            </Link>
-            <div className="border-t border-border my-1" />
             <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
               How We Work
             </Link>
@@ -124,14 +79,12 @@ const Footer = () => (
           contact@tekmera.ai
         </a>
       </div>
-      <div className="flex flex-col gap-2 text-sm">
-        <Link to="/services/workfront" className="text-secondary-foreground hover:text-foreground">Adobe Workfront</Link>
-        <Link to="/services/ai-automation" className="text-secondary-foreground hover:text-foreground">AI & Automation</Link>
-        <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">How We Work</Link>
-        <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
-        <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
-        <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
-      </div>
+        <div className="flex flex-col gap-2 text-sm">
+          <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">How We Work</Link>
+          <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
+          <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
+          <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
+        </div>
       <div>
         <a
           href={BOOKING_LINK}
