@@ -60,14 +60,6 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden border-t border-border bg-background animate-fade-in">
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
-            <p className="text-muted-foreground text-xs uppercase tracking-wider">Services</p>
-            <Link to="/services/workfront" className="text-secondary-foreground hover:text-foreground pl-2">
-              Adobe Workfront
-            </Link>
-            <Link to="/services/ai-automation" className="text-secondary-foreground hover:text-foreground pl-2">
-              AI & Automation
-            </Link>
-            <div className="border-t border-border my-1" />
             <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
               How We Work
             </Link>
