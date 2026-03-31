@@ -34,13 +34,10 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Enterprises</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — doesn't survive documentation, training, or shadowing. You've tried. It didn't stick.
-        </p>
-        <p className="text-secondary-foreground leading-relaxed mb-4">
-          The problem isn't knowledge transfer. It's that the reasoning is invisible to the person who has it. They don't know what they know. They just react correctly and can't explain why.
+          Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — is invisible even to them. They react correctly and can't explain why.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We sit with those people, surface the decision points they're running without knowing it, and encode them into AI that reasons — not automates. Your team gets access to the judgment without needing the person in the room.
+          We sit with those people, surface the decision points they're running without knowing it, and encode them into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
         </p>
       </section>
 
@@ -50,11 +47,8 @@ const HowWeWork = () => (
         <p className="text-secondary-foreground leading-relaxed mb-4">
           Your team's expertise is the program. When someone leaves, institutional knowledge walks out the door. When demand grows, you don't have the budget to grow with it.
         </p>
-        <p className="text-secondary-foreground leading-relaxed mb-4">
-          You've probably been pitched AI tools that feel disconnected from what your team actually does. Chatbots trained on your website. Automation layered on top of processes that don't work yet.
-        </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We start with what your people know — the accumulated judgment from years of direct service — and find where AI creates real leverage. Not a strategy deck. A working system, built around how your team actually operates, that your people can use the week we hand it over.
+          We start with what your people know — the accumulated judgment from years of direct service — and find where AI creates real leverage. A working system, built around how your team actually operates, that your people can use the week we hand it over.
         </p>
       </section>
 
@@ -71,7 +65,7 @@ const HowWeWork = () => (
           <div>
             <h3 className="text-xl text-foreground mb-3">Shape</h3>
             <p className="text-secondary-foreground leading-relaxed">
-              We build a rough model. You correct it. Each correction reveals what you actually know — the implicit judgment, the unstated constraints. The real thing emerges through refinement, not specification.
+              We build a rough model. You correct it. Each correction reveals what you actually know — the implicit judgment, the unstated constraints. The real thing emerges through refinement.
             </p>
           </div>
           <div>
@@ -82,7 +76,7 @@ const HowWeWork = () => (
           </div>
         </div>
         <p className="text-secondary-foreground leading-relaxed mt-10">
-          Engagements are scoped around a goal, not a fixed spec. The shape changes as extraction reveals what's actually there. That's the point.
+          Engagements are scoped around a goal. The shape changes as extraction reveals what's actually there. That's the point.
         </p>
       </section>
 
