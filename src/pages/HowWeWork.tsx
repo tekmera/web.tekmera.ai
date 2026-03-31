@@ -9,24 +9,18 @@ const HowWeWork = () => (
       <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-4">
         How We Work
       </h1>
-      <p className="text-lg text-secondary-foreground leading-relaxed mb-4 max-w-2xl">
-        Every Tekmera engagement runs as a four-month sprint. We define a goal, build lean, and ship something real.
-      </p>
       <p className="text-lg text-secondary-foreground leading-relaxed mb-16 max-w-2xl">
-        The motion is the same every time — translate, shape, execute — but what that looks like depends on what you're carrying when you walk in.
+        Every Tekmera engagement runs as a four-month sprint. We translate your strategy into a buildable system and decide what gets built, in what order, to deliver value and gather feedback as fast as possible. The focus is sequencing and scope, so you avoid long build cycles that produce the wrong thing.
       </p>
 
       {/* Founders */}
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Founders</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          You've been explaining your idea for months. Some people nod. Nobody builds it right. Dev shops quote you on what you described, and what you described isn't the product — you know that, but you can't articulate what is.
-        </p>
-        <p className="text-secondary-foreground leading-relaxed mb-4">
-          The product is underneath. It's in the judgment calls you make without thinking, the corrections you give when someone gets it wrong, the thing you keep saying that nobody writes down.
+          You understand your domain but don't have someone who can define and build the actual product.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We find it. We build a rough version. You tell us what's wrong with it. Each correction gets us closer to the thing you actually meant. Four months later, it exists.
+          We determine what needs to exist, scope the first version, and build it. AI where it adds leverage, lean everywhere else. Four months, working product.
         </p>
       </section>
 
@@ -37,7 +31,7 @@ const HowWeWork = () => (
           Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — is invisible even to them. They react correctly and can't explain why.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We sit with those people, surface the decision points they're running without knowing it, and encode them into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
+          We sit with those people, map how they actually think, and encode it into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
         </p>
       </section>
 
@@ -45,10 +39,10 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Non-Profits</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          Your team's expertise is the program. When someone leaves, institutional knowledge walks out the door. When demand grows, you don't have the budget to grow with it.
+          Your team does more with less, and critical knowledge sits with individuals. When demand grows, capacity does not.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We start with what your people know — the accumulated judgment from years of direct service — and find where AI creates real leverage. A working system, built around how your team actually operates, that your people can use the week we hand it over.
+          We identify where AI creates leverage in your operation and build systems your team can use immediately, aligned with how they already work.
         </p>
       </section>
 
@@ -59,25 +53,22 @@ const HowWeWork = () => (
           <div>
             <h3 className="text-xl text-foreground mb-3">Translate</h3>
             <p className="text-secondary-foreground leading-relaxed">
-              We sit with the person who knows and surface the reasoning they don't know they're running. The real product or system is always underneath what's described.
+              Convert your strategy and domain knowledge into a concrete system definition.
             </p>
           </div>
           <div>
             <h3 className="text-xl text-foreground mb-3">Shape</h3>
             <p className="text-secondary-foreground leading-relaxed">
-              We build a rough model. You correct it. Each correction reveals what you actually know — the implicit judgment, the unstated constraints. The real thing emerges through refinement.
+              Decide scope and sequencing: what gets built now, what waits, and what gets removed.
             </p>
           </div>
           <div>
             <h3 className="text-xl text-foreground mb-3">Execute</h3>
             <p className="text-secondary-foreground leading-relaxed">
-              We build it. AI at the center. Fast iterations. Ship it.
+              Build and ship the first working version. AI where it adds leverage.
             </p>
           </div>
         </div>
-        <p className="text-secondary-foreground leading-relaxed mt-10">
-          Engagements are scoped around a goal. The shape changes as extraction reveals what's actually there. That's the point.
-        </p>
       </section>
 
       {/* CTA */}
