@@ -37,7 +37,7 @@ const HowWeWork = () => (
           You need someone who can define what should exist and carry it through delivery inside real constraints.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We work inside your environment, identify where change creates the most impact, and build systems that fit your existing architecture, governance, and workflows.
+          We work inside your environment, identify where change creates the most impact, and build systems that fit your existing architecture, governance, and workflows. Delivered as working systems, not recommendations.
         </p>
       </section>
 
