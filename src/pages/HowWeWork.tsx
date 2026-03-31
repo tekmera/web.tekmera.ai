@@ -17,7 +17,10 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Founders</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          You understand your domain but don't have someone who can define and build the actual product.
+          You have a product idea but no reliable way to get it built. Scope is still changing, and you don't trust a long build cycle to land on the right product.
+        </p>
+        <p className="text-secondary-foreground leading-relaxed mb-4">
+          You need something real, fast, that reflects what you actually mean.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
           We determine what needs to exist, scope the first version, and build it. AI where it adds leverage, lean everywhere else. Four months, working product.
@@ -28,10 +31,13 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Enterprises</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          We enter your existing systems, think from first principles, and establish where change delivers the most impact. We adjust governance, security, and delivery patterns to fit. We improve process, systems, people, and product continuously.
+          Critical work moves slower than it should, and outcomes miss the mark. External teams don't integrate well, and internal teams don't have the capacity to push change through.
+        </p>
+        <p className="text-secondary-foreground leading-relaxed mb-4">
+          You need someone who can define what should exist and carry it through delivery inside real constraints.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          Your best people can't be everywhere. We sit with them, map how they actually think, and encode it into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
+          We work inside your environment, identify where change creates the most impact, and build systems that fit your existing architecture, governance, and workflows.
         </p>
       </section>
 
@@ -39,10 +45,13 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Non-Profits</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          Your team does more with less, and critical knowledge sits with individuals. When demand grows, capacity does not.
+          Your capacity is limited, and critical knowledge sits with a small number of people. Demand grows, but your systems do not scale with it.
+        </p>
+        <p className="text-secondary-foreground leading-relaxed mb-4">
+          You need leverage without adding operational overhead.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We identify where AI creates leverage in your operation and build systems your team can use immediately, aligned with how they already work.
+          We identify where AI creates meaningful leverage in your operation and build systems your team can use immediately, aligned with how they already work.
         </p>
       </section>
 
