@@ -80,7 +80,7 @@ const Footer = () => (
         </a>
       </div>
         <div className="flex flex-col gap-2 text-sm">
-          <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">How We Work</Link>
+          <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">Work With Us</Link>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
           <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
           <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
