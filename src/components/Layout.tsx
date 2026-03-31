@@ -24,7 +24,7 @@ const Header = () => {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-body font-medium">
           <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
-            How We Work
+            Work With Us
           </Link>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground transition-colors">
             From the Field
