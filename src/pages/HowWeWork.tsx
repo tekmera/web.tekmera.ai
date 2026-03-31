@@ -76,7 +76,7 @@ const HowWeWork = () => (
           </div>
         </div>
         <p className="text-secondary-foreground leading-relaxed mt-10">
-          Engagements are scoped around a goal, not a fixed spec. The shape changes as extraction reveals what's actually there. That's the point.
+          Engagements are scoped around a goal. The shape changes as extraction reveals what's actually there. That's the point.
         </p>
       </section>
 
