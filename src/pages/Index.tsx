@@ -70,13 +70,13 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl text-foreground mb-10">Who This Is For</h2>
           <ul className="space-y-5 text-secondary-foreground leading-relaxed">
             <li className="border-l-2 border-primary pl-5">
-              <span className="text-foreground font-medium">Founders</span> who have a real idea and real domain expertise and need the real product found and built.
+              <span className="text-foreground font-medium">Founders</span> with real domain expertise who need the right product defined and built.
             </li>
             <li className="border-l-2 border-primary pl-5">
-              <span className="text-foreground font-medium">Organizations</span> whose best people can't be everywhere. We extract their judgment and encode it into tools the rest of the team can use.
+              <span className="text-foreground font-medium">Organizations</span> whose best people can't be everywhere. We encode their decision-making into tools the rest of the team can use.
             </li>
             <li className="border-l-2 border-primary pl-5">
-              <span className="text-foreground font-medium">Enterprise teams</span> running systems nobody fully understands anymore. We make it legible and build what's needed to hold it together.
+              <span className="text-foreground font-medium">Enterprise teams</span> running systems no one fully understands. We make them legible and build what's needed to hold them together.
             </li>
           </ul>
         </div>
