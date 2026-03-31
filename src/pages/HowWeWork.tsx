@@ -65,7 +65,7 @@ const HowWeWork = () => (
           <div>
             <h3 className="text-xl text-foreground mb-3">Shape</h3>
             <p className="text-secondary-foreground leading-relaxed">
-              We build a rough model. You correct it. Each correction reveals what you actually know — the implicit judgment, the unstated constraints. The real thing emerges through refinement, not specification.
+              We build a rough model. You correct it. Each correction reveals what you actually know — the implicit judgment, the unstated constraints. The real thing emerges through refinement.
             </p>
           </div>
           <div>
