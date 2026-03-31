@@ -7,7 +7,7 @@ const HowWeWork = () => (
   <Layout>
     <article className="max-w-3xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-24">
       <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-4">
-        How We Work
+        Work With Us
       </h1>
       <p className="text-lg text-secondary-foreground leading-relaxed mb-16 max-w-2xl">
         Every Tekmera engagement runs as a four-month sprint. We translate your strategy into a buildable system and decide what gets built, in what order, to deliver value and gather feedback as fast as possible. The focus is sequencing and scope, so you avoid long build cycles that produce the wrong thing.
