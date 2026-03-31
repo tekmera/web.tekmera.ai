@@ -48,7 +48,7 @@ const Header = () => {
         <div className="md:hidden border-t border-border bg-background animate-fade-in">
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
             <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
-              How We Work
+              Work With Us
             </Link>
             <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">
               From the Field
