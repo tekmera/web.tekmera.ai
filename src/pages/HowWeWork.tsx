@@ -34,13 +34,10 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Enterprises</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — doesn't survive documentation, training, or shadowing. You've tried. It didn't stick.
-        </p>
-        <p className="text-secondary-foreground leading-relaxed mb-4">
-          The problem isn't knowledge transfer. It's that the reasoning is invisible to the person who has it. They don't know what they know. They just react correctly and can't explain why.
+          Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — is invisible even to them. They react correctly and can't explain why.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We sit with those people, surface the decision points they're running without knowing it, and encode them into AI that reasons — not automates. Your team gets access to the judgment without needing the person in the room.
+          We sit with those people, surface the decision points they're running without knowing it, and encode them into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
         </p>
       </section>
 
