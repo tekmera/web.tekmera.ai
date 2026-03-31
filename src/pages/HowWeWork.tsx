@@ -28,10 +28,10 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Enterprises</h2>
         <p className="text-secondary-foreground leading-relaxed mb-4">
-          Your best people can't be everywhere. The judgment that makes them effective — the thing they see that less experienced people miss — is invisible even to them. They react correctly and can't explain why.
+          We enter your existing systems, think from first principles, and establish where change delivers the most impact. We adjust governance, security, and delivery patterns to fit. We improve process, systems, people, and product continuously.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We sit with those people, map how they actually think, and encode it into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
+          Your best people can't be everywhere. We sit with them, map how they actually think, and encode it into AI that reasons the way they do. Your team gets access to the judgment without needing the person in the room.
         </p>
       </section>
 
