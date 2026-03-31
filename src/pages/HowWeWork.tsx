@@ -47,11 +47,8 @@ const HowWeWork = () => (
         <p className="text-secondary-foreground leading-relaxed mb-4">
           Your team's expertise is the program. When someone leaves, institutional knowledge walks out the door. When demand grows, you don't have the budget to grow with it.
         </p>
-        <p className="text-secondary-foreground leading-relaxed mb-4">
-          You've probably been pitched AI tools that feel disconnected from what your team actually does. Chatbots trained on your website. Automation layered on top of processes that don't work yet.
-        </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We start with what your people know — the accumulated judgment from years of direct service — and find where AI creates real leverage. Not a strategy deck. A working system, built around how your team actually operates, that your people can use the week we hand it over.
+          We start with what your people know — the accumulated judgment from years of direct service — and find where AI creates real leverage. A working system, built around how your team actually operates, that your people can use the week we hand it over.
         </p>
       </section>
 
