@@ -23,7 +23,7 @@ const HowWeWork = () => (
           You need something real, fast, that reflects what you actually mean.
         </p>
         <p className="text-secondary-foreground leading-relaxed">
-          We determine what needs to exist, scope the first version, and build it. AI where it adds leverage, lean everywhere else. Four months, working product.
+          We determine what needs to exist, scope the first version, and build it. AI where it adds leverage, lean everywhere else. First demo in two weeks. Continuous delivery from there.
         </p>
       </section>
 
