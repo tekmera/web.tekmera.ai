@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['"Azeret Mono"', 'monospace'],
+        heading: ['"Instrument Sans"', 'system-ui', 'sans-serif'],
         body: ['"Instrument Sans"', 'system-ui', 'sans-serif'],
       },
       colors: {
