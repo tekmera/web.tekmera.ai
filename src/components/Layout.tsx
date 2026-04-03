@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import tekmeraIcon from "@/assets/tekmera_icon.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
 
@@ -17,7 +16,6 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src={tekmeraIcon} alt="Tekmera" className="h-8 w-auto" />
           <span className="font-heading text-2xl text-foreground tracking-tight italic">Tekmera</span>
         </Link>
 
@@ -70,8 +68,7 @@ const Footer = () => (
   <footer className="border-t border-border mt-24">
     <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
       <div>
-        <p className="font-heading text-xl italic text-foreground mb-2 flex items-center gap-2">
-          <img src={tekmeraIcon} alt="Tekmera" className="h-6 w-auto" />
+        <p className="font-heading text-xl italic text-foreground mb-2">
           Tekmera
         </p>
         <p className="text-sm text-muted-foreground">Fredericton, New Brunswick, Canada</p>
