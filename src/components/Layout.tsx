@@ -16,7 +16,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-heading text-2xl text-foreground tracking-tight italic">Tekmera</span>
+          <span className="font-heading text-2xl text-foreground tracking-tight">Tekmera</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -68,7 +68,7 @@ const Footer = () => (
   <footer className="border-t border-border mt-24">
     <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
       <div>
-        <p className="font-heading text-xl italic text-foreground mb-2">
+        <p className="font-heading text-xl text-foreground mb-2">
           Tekmera
         </p>
         <p className="text-sm text-muted-foreground">Fredericton, New Brunswick, Canada</p>
