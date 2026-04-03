@@ -68,8 +68,7 @@ const Footer = () => (
   <footer className="border-t border-border mt-24">
     <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
       <div>
-        <p className="font-heading text-xl italic text-foreground mb-2 flex items-center gap-2">
-          <img src={tekmeraIcon} alt="Tekmera" className="h-6 w-auto" />
+        <p className="font-heading text-xl italic text-foreground mb-2">
           Tekmera
         </p>
         <p className="text-sm text-muted-foreground">Fredericton, New Brunswick, Canada</p>
