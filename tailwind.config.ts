@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         heading: ['"Azeret Mono"', 'monospace'],
-        body: ['"IBM Plex Sans"', 'system-ui', 'sans-serif'],
+        body: ['"Instrument Sans"', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
