@@ -45,6 +45,14 @@ const SystemNotes = () => (
                 Systems Show Themselves at the Edges
               </Link>
             </li>
+            <li>
+              <Link
+                to="/system-notes/what-ai-coding-wont-teach-you"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                What AI Coding Won't Teach You
+              </Link>
+            </li>
           </ul>
         </div>
 
