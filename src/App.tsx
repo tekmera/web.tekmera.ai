@@ -50,7 +50,7 @@ const App = () => (
           <Route path="/system-notes/structure-before-speed" element={<StructureBeforeSpeed />} />
           <Route path="/system-notes/runaway-one-time-scenario" element={<RunawayOneTimeScenario />} />
           <Route path="/system-notes/systems-show-themselves" element={<SystemsShowThemselves />} />
-          <Route path="/system-notes/what-ai-coding-wont-teach-you" element={<WhatAICodingWontTeachYou />} />
+          <Route path="/system-notes/what-ai-coding-still-needs-from-you" element={<WhatAICodingWontTeachYou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
