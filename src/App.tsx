@@ -18,6 +18,7 @@ import AIWithoutArchitecture from "./pages/system-notes/AIWithoutArchitecture";
 import StructureBeforeSpeed from "./pages/system-notes/StructureBeforeSpeed";
 import RunawayOneTimeScenario from "./pages/system-notes/RunawayOneTimeScenario";
 import SystemsShowThemselves from "./pages/system-notes/SystemsShowThemselves";
+import WhatAICodingWontTeachYou from "./pages/system-notes/WhatAICodingWontTeachYou";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/system-notes/structure-before-speed" element={<StructureBeforeSpeed />} />
           <Route path="/system-notes/runaway-one-time-scenario" element={<RunawayOneTimeScenario />} />
           <Route path="/system-notes/systems-show-themselves" element={<SystemsShowThemselves />} />
+          <Route path="/system-notes/what-ai-coding-wont-teach-you" element={<WhatAICodingWontTeachYou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
