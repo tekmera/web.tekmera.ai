@@ -47,7 +47,7 @@ const SystemNotes = () => (
             </li>
             <li>
               <Link
-                to="/system-notes/what-ai-coding-wont-teach-you"
+                to="/system-notes/what-ai-coding-still-needs-from-you"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
                 What AI Coding Still Needs From You
