@@ -107,11 +107,6 @@ const WhatAICodingWontTeachYou = () => (
           The first three are about the domain pushing back on you. The fourth is you pushing back on the domain.
         </p>
 
-        <hr className="border-border my-8" />
-
-        <p>
-          These aren't generic signals anyone picks up. They're engineering pattern recognition. Without that experience, you won't see Domain Collapse — you'll just see "the system feels off." Won't feel Path Discovery as discovery. Won't have the cost-intuition to hit Not Worth It at the right moment. The "judgment" the narrative talks about was always engineering judgment in disguise. Strip the engineering and what's left is preference.
-        </p>
 
         <hr className="border-border my-8" />
 
