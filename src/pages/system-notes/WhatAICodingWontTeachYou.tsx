@@ -17,6 +17,9 @@ const WhatAICodingWontTeachYou = () => (
         <p className="text-lg text-secondary-foreground leading-relaxed">
           Four truths that only show up where intent meets execution.
         </p>
+        <p className="text-sm text-muted-foreground">
+          Written by David Kershaw — Tekmera Founder
+        </p>
       </div>
 
       <div className="text-secondary-foreground leading-relaxed space-y-4">
