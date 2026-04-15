@@ -40,7 +40,7 @@ const WhatAICodingWontTeachYou = () => (
         <hr className="border-border my-8" />
 
         <p>
-          There's a narrative now that everyone's a product manager. Anyone can build. Ideas are free, implementation is free, judgment is democratized. To me, that's too easy. It assumes perfection before first contact. It assumes judgment is the be-all and end-all of building anything.
+          There's a narrative now that everyone's a product manager. Anyone can build. Ideas are free, implementation is free, judgment is democratized. To me, that's too easy. It assumes the idea is hardened before first contact. It assumes judgment is the be-all and end-all of building anything.
         </p>
         <p>
           The narrative works because implementation really is free now. We do the upfront design. We do the product thinking. We express our ideas, and something builds a coherent version of them. If you're paying attention, you might see the shape form underneath. But the feedback loop is broken. The creative touching-reality, the figuring out the shape — it's all happening pre-build. It doesn't approach reality. It never touches reality.
