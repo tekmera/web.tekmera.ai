@@ -50,7 +50,7 @@ const SystemNotes = () => (
                 to="/system-notes/what-ai-coding-wont-teach-you"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
-                What AI Coding Won't Teach You
+                What AI Coding Still Needs From You
               </Link>
             </li>
           </ul>

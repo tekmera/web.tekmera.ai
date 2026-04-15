@@ -12,7 +12,7 @@ const WhatAICodingWontTeachYou = () => (
           {" "}/ Principles
         </p>
         <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-6">
-          What AI Coding Won't Teach You
+          What AI Coding Still Needs From You
         </h1>
         <p className="text-lg text-secondary-foreground leading-relaxed">
           Four truths that only show up where intent meets execution.
