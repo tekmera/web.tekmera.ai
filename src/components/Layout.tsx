@@ -21,9 +21,21 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-body font-medium">
-          <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
-            Work With Us
-          </Link>
+          <div className="relative group">
+            <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
+              Work With Us
+            </Link>
+            <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="bg-background border border-border rounded-md shadow-lg py-2 min-w-[220px]">
+                <Link
+                  to="/how-we-work/adobe-practice"
+                  className="block px-4 py-2 text-secondary-foreground hover:text-foreground hover:bg-muted transition-colors"
+                >
+                  Adobe Practice
+                </Link>
+              </div>
+            </div>
+          </div>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground transition-colors">
             From the Field
           </Link>
@@ -47,6 +59,9 @@ const Header = () => {
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
             <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
               Work With Us
+            </Link>
+            <Link to="/how-we-work/adobe-practice" className="text-secondary-foreground hover:text-foreground pl-4">
+              Adobe Practice
             </Link>
             <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">
               From the Field
