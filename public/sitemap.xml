@@ -5,16 +5,12 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tekmera.ai/services/workfront</loc>
+    <loc>https://tekmera.ai/work-with-us</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tekmera.ai/services/ai-automation</loc>
+    <loc>https://tekmera.ai/work-with-us/adobe-practice</loc>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tekmera.ai/how-we-work</loc>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tekmera.ai/about</loc>
@@ -29,6 +25,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://tekmera.ai/system-notes/ai-without-architecture</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/structure-before-speed</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/systems-show-themselves</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/what-ai-coding-still-needs-from-you</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tekmera.ai/system-notes/runaway-one-time-scenario</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tekmera.ai/system-notes/it-never-stopped-running</loc>
     <priority>0.6</priority>
   </url>
@@ -38,22 +54,6 @@
   </url>
   <url>
     <loc>https://tekmera.ai/system-notes/it-couldnt-see-itself</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tekmera.ai/system-notes/ai-without-architecture</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tekmera.ai/system-notes/structure-before-speed</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tekmera.ai/system-notes/runaway-one-time-scenario</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tekmera.ai/system-notes/systems-show-themselves</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
