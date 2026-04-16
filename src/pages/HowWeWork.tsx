@@ -85,7 +85,7 @@ const HowWeWork = () => (
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Practices</h2>
         <Link
-          to="/how-we-work/adobe-practice"
+          to="/work-with-us/adobe-practice"
           className="block text-secondary-foreground hover:text-foreground transition-colors border-l-2 border-primary pl-5"
         >
           Adobe Workfront &amp; Fusion Architecture
