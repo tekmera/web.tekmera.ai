@@ -24,7 +24,7 @@ const AdobePractice = () => (
           We don't just build scenarios. We design processes. Scenarios are just the way we express them.
         </p>
         <p>
-          Fusion developers come to us when they have questions. Workfront consultants come to us when they want to know how Fusion should work with their ideas. Organizations come to us when they want to know how their Adobe practice integrates across their existing platforms at scale with AI.
+          Fusion developers come to us when they have questions. Workfront admins come to us when they want to know how Fusion should work with their ideas. Organizations come to us when they want to know how their Adobe practice integrates across their existing platforms at scale with AI.
         </p>
       </div>
 
