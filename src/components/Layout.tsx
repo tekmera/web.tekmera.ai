@@ -22,13 +22,13 @@ const Header = () => {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-body font-medium">
           <div className="relative group">
-            <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground transition-colors">
+          <Link to="/work-with-us" className="text-secondary-foreground hover:text-foreground transition-colors">
               Work With Us
             </Link>
             <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="bg-background border border-border rounded-md shadow-lg py-2 min-w-[220px]">
                 <Link
-                  to="/how-we-work/adobe-practice"
+                  to="/work-with-us/adobe-practice"
                   className="block px-4 py-2 text-secondary-foreground hover:text-foreground hover:bg-muted transition-colors"
                 >
                   Adobe Practice
@@ -57,10 +57,10 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden border-t border-border bg-background animate-fade-in">
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
-            <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">
+            <Link to="/work-with-us" className="text-secondary-foreground hover:text-foreground">
               Work With Us
             </Link>
-            <Link to="/how-we-work/adobe-practice" className="text-secondary-foreground hover:text-foreground pl-4">
+            <Link to="/work-with-us/adobe-practice" className="text-secondary-foreground hover:text-foreground pl-4">
               Adobe Practice
             </Link>
             <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">
@@ -92,7 +92,7 @@ const Footer = () => (
         </a>
       </div>
         <div className="flex flex-col gap-2 text-sm">
-          <Link to="/how-we-work" className="text-secondary-foreground hover:text-foreground">Work With Us</Link>
+          <Link to="/work-with-us" className="text-secondary-foreground hover:text-foreground">Work With Us</Link>
           <Link to="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
           <Link to="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
           <Link to="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
