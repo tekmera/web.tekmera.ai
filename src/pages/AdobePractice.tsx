@@ -18,7 +18,7 @@ const AdobePractice = () => (
 
       <div className="text-secondary-foreground leading-relaxed space-y-4 mb-16">
         <p>
-          Tekmera has operated Workfront implementations hosted in AWS at enormous scale since 2017. Enterprise development, software development, and architecture — through the lens of Adobe Workfront and Fusion. Platform integration, identity management, and large-scale process automation across Fortune 100 organizations, including some of the ten largest companies in the world.
+          Tekmera has operated Workfront implementations hosted in AWS at scale since 2017. Enterprise development, software development, and architecture — through the lens of Adobe Workfront and Fusion. Platform integration, identity management, and large-scale process automation across Fortune 100 organizations, including some of the ten largest companies in the world.
         </p>
         <p>
           We don't just build scenarios. We design processes. Scenarios are just the way we express them.
