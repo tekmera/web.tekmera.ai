@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
@@ -78,6 +79,17 @@ const HowWeWork = () => (
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Practices */}
+      <section className="mb-16 border-t border-border pt-12">
+        <h2 className="text-2xl text-foreground mb-6">Practices</h2>
+        <Link
+          to="/how-we-work/adobe-practice"
+          className="block text-secondary-foreground hover:text-foreground transition-colors border-l-2 border-primary pl-5"
+        >
+          Adobe Workfront &amp; Fusion Architecture
+        </Link>
       </section>
 
       {/* CTA */}

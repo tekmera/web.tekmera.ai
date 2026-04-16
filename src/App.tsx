@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Index from "./pages/Index";
 import HowWeWork from "./pages/HowWeWork";
+import AdobePractice from "./pages/AdobePractice";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -40,6 +41,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/how-we-work" element={<HowWeWork />} />
+          <Route path="/how-we-work/adobe-practice" element={<AdobePractice />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/system-notes" element={<SystemNotes />} />
