@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
+import explorerSummary0 from "@/assets/explorer-summary-0.png";
+import explorerSummary1 from "@/assets/explorer-summary-1.png";
+import explorerSearch1 from "@/assets/explorer-search-1.png";
+import explorerSearch2 from "@/assets/explorer-search-2.png";
+import explorerDiff1 from "@/assets/explorer-diff-1.png";
+import explorerDiff2 from "@/assets/explorer-diff-2.png";
 
 const BOOKING_LINK = "https://tekmera.zohobookings.ca/#/13034000000058028";
 
@@ -53,23 +59,35 @@ const AdobePractice = () => (
         <div className="space-y-10">
           <div>
             <h3 className="text-xl text-foreground mb-3">Blueprint Summary</h3>
-            <p className="text-secondary-foreground leading-relaxed">
+            <p className="text-secondary-foreground leading-relaxed mb-4">
               Point it at a blueprint and get a full architectural breakdown — component counts, module types, routers, filters, error handlers, trigger analysis, connection mapping, risk indicators, and a change surface index. A 900-component scenario becomes a navigable report in seconds instead of hours of manual inspection.
             </p>
+            <div className="space-y-4">
+              <img src={explorerSummary0} alt="Blueprint Summary Report — Overview" className="w-full rounded-md border border-border" />
+              <img src={explorerSummary1} alt="Blueprint Summary Report — Component Analysis" className="w-full rounded-md border border-border" />
+            </div>
           </div>
 
           <div>
             <h3 className="text-xl text-foreground mb-3">Cross-Blueprint Search</h3>
-            <p className="text-secondary-foreground leading-relaxed">
+            <p className="text-secondary-foreground leading-relaxed mb-4">
               Search for a field, a value, a module type, or any string across an entire blueprint collection. Results show exactly where the match lives — which blueprint, which component, which path through the flow — with full filter condition context so you can see how the match is being used, not just that it exists. Searched across 97 blueprints at a time during enterprise client work.
             </p>
+            <div className="space-y-4">
+              <img src={explorerSearch1} alt="Cross-Blueprint Search — Overview" className="w-full rounded-md border border-border" />
+              <img src={explorerSearch2} alt="Cross-Blueprint Search — Match Detail" className="w-full rounded-md border border-border" />
+            </div>
           </div>
 
           <div>
             <h3 className="text-xl text-foreground mb-3">Blueprint Diff</h3>
-            <p className="text-secondary-foreground leading-relaxed">
+            <p className="text-secondary-foreground leading-relaxed mb-4">
               Compare two versions of a blueprint side by side. Change magnitude scoring, component-level change detection, and a structured breakdown of what moved between versions. Built for the reality of enterprise Fusion work where scenarios evolve across environments (production, sandbox) and teams need to understand what actually changed.
             </p>
+            <div className="space-y-4">
+              <img src={explorerDiff1} alt="Blueprint Diff — Summary" className="w-full rounded-md border border-border" />
+              <img src={explorerDiff2} alt="Blueprint Diff — Change Details" className="w-full rounded-md border border-border" />
+            </div>
           </div>
         </div>
 
