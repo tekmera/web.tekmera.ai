@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
@@ -87,6 +86,20 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9FBH3XVBYQ"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9FBH3XVBYQ');
+            `,
+          }}
+        />
       </head>
       <body>
         <Providers>
@@ -96,18 +109,6 @@ export default function RootLayout({
             <Footer />
           </div>
         </Providers>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-9FBH3XVBYQ"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-9FBH3XVBYQ');
-          `}
-        </Script>
       </body>
     </html>
   );
