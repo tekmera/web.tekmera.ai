@@ -24,7 +24,7 @@ export default function AdobePracticePage() {
 
       <div className="text-secondary-foreground leading-relaxed space-y-4 mb-16">
         <p>
-          Tekmera has operated Workfront implementations hosted in AWS at scale since 2017. Enterprise development, software development, and architecture — through the lens of Adobe Workfront and Fusion. Platform integration, identity management, content supply chain transformation, and large-scale process automation across Fortune 100 organizations, including some of the ten largest companies in the world.
+          Tekmera has operated Workfront implementations hosted in AWS at scale since 2017. Enterprise development, software development, and architecture — through the lens of Adobe Workfront and Fusion. Platform integration, identity management, content supply chain transformation, and large-scale process automation across Fortune 100 organizations.
         </p>
         <p>
           We don&apos;t just build scenarios. We design processes. Scenarios are just the way we express them.
@@ -114,7 +114,7 @@ export default function AdobePracticePage() {
             "Adobe Fusion certified",
             "Workfront API development since 2017",
             "Dozens of custom Workfront implementations and Fusion automations",
-            "Fortune 100 delivery including top-ten Fortune companies",
+            "Fortune 100 delivery",
             "Enterprise platform integration experience across identity management, content operations, and process automation",
             "Proprietary diagnostic tooling built from enterprise Fusion practice",
           ].map((item) => (
