@@ -84,7 +84,7 @@ export default function WorkWithUsPage() {
             </p>
           </div>
           <div>
-            <h3 className="text-xl text-foreground mb-3">Execute</h3>
+            <h3 className="text-xl text-foreground mb-3">Ship</h3>
             <p className="text-secondary-foreground leading-relaxed">
               Build and ship the first working version. AI where it adds leverage.
             </p>
