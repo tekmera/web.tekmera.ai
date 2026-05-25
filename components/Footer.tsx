@@ -20,6 +20,14 @@ export default function Footer() {
           <Link href="/system-notes" className="text-secondary-foreground hover:text-foreground">From the Field</Link>
           <Link href="/about" className="text-secondary-foreground hover:text-foreground">About</Link>
           <Link href="/contact" className="text-secondary-foreground hover:text-foreground">Contact</Link>
+          <a
+            href="https://github.com/tekmera/tekmera-blueprint-explorer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-secondary-foreground hover:text-foreground"
+          >
+            Open Source
+          </a>
         </div>
         <div>
           <a

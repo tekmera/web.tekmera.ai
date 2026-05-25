@@ -56,9 +56,9 @@ export default function AdobePracticePage() {
       </section>
 
       <section className="mb-16">
-        <h2 className="text-2xl text-foreground mb-6">Tekmera Explorer — Fusion Diagnostic Tooling</h2>
+        <h2 className="text-2xl text-foreground mb-6">Tekmera Blueprint Explorer — Fusion Diagnostic Tooling</h2>
         <p className="text-secondary-foreground leading-relaxed mb-6">
-          We built Tekmera Explorer because enterprise Fusion environments get complex enough that manual inspection stops working. It&apos;s a diagnostic platform that reads exported Fusion blueprints and turns them into structured, queryable analysis.
+          We built Tekmera Blueprint Explorer because enterprise Fusion environments get complex enough that manual inspection stops working. It&apos;s a diagnostic platform that reads exported Fusion blueprints and turns them into structured, queryable analysis.
         </p>
         <p className="text-secondary-foreground leading-relaxed mb-8">Three core reports:</p>
 
@@ -100,7 +100,17 @@ export default function AdobePracticePage() {
         <div className="mt-8 border-t border-border pt-8">
           <h3 className="text-xl text-foreground mb-3">Why this exists</h3>
           <p className="text-secondary-foreground leading-relaxed">
-            Enterprise Fusion environments at Fortune 100 scale run dozens to hundreds of scenarios with thousands of components. When something breaks, or when a new team inherits an environment, or when an organization needs to understand what their automation landscape actually does — manual inspection doesn&apos;t scale. Tekmera Explorer was built from years of doing that work and needing better tools to do it.
+            Enterprise Fusion environments at Fortune 100 scale run dozens to hundreds of scenarios with thousands of components. When something breaks, or when a new team inherits an environment, or when an organization needs to understand what their automation landscape actually does — manual inspection doesn&apos;t scale. Tekmera Blueprint Explorer was built from years of doing that work and needing better tools to do it.
+          </p>
+          <p className="text-secondary-foreground leading-relaxed mt-6">
+            <a
+              href="https://github.com/tekmera/tekmera-blueprint-explorer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              Open source on GitHub →
+            </a>
           </p>
         </div>
       </section>
