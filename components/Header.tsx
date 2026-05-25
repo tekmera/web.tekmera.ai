@@ -31,6 +31,12 @@ export default function Header() {
             <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="bg-background border border-border rounded-md shadow-lg py-2 min-w-[220px]">
                 <Link
+                  href="/work-with-us/prototype-to-production"
+                  className="block px-4 py-2 text-secondary-foreground hover:text-foreground hover:bg-muted transition-colors"
+                >
+                  Prototype to Production
+                </Link>
+                <Link
                   href="/work-with-us/adobe-practice"
                   className="block px-4 py-2 text-secondary-foreground hover:text-foreground hover:bg-muted transition-colors"
                 >
@@ -62,6 +68,9 @@ export default function Header() {
           <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-body font-medium">
             <Link href="/work-with-us" className="text-secondary-foreground hover:text-foreground">
               Work With Us
+            </Link>
+            <Link href="/work-with-us/prototype-to-production" className="text-secondary-foreground hover:text-foreground pl-4">
+              Prototype to Production
             </Link>
             <Link href="/work-with-us/adobe-practice" className="text-secondary-foreground hover:text-foreground pl-4">
               Adobe Practice

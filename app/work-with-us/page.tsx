@@ -92,6 +92,20 @@ export default function WorkWithUsPage() {
         </div>
       </section>
 
+      {/* Prototype to Production */}
+      <section className="mb-16 border-t border-border pt-12">
+        <h2 className="text-2xl text-foreground mb-6">Prototype to Production</h2>
+        <p className="text-secondary-foreground leading-relaxed mb-4">
+          You have a prototype that proves the idea and need to know what it would actually take to make it real. A focused engagement that maps out the full build plan and its real cost before you commit to building.
+        </p>
+        <Link
+          href="/work-with-us/prototype-to-production"
+          className="block text-secondary-foreground hover:text-foreground transition-colors border-l-2 border-primary pl-5"
+        >
+          Prototype to Production &rarr;
+        </Link>
+      </section>
+
       {/* Practices */}
       <section className="mb-16 border-t border-border pt-12">
         <h2 className="text-2xl text-foreground mb-6">Practices</h2>
