@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       "Tekmera helps founders and organizations turn deep expertise into working products and systems. Translate, shape, and ship the right first version.",
     images: [
-      "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b4c0b72d-da6b-4b71-bbeb-e280df4b03dc/id-preview-5d83d5f6--3ddec6cf-5315-407d-b22a-8302a91a4870.lovable.app-1771430233883.png",
+      "https://tekmera.ai/david-kershaw.png",
     ],
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Tekmera helps founders and organizations turn deep expertise into working products and systems. Translate, shape, and ship the right first version.",
     images: [
-      "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b4c0b72d-da6b-4b71-bbeb-e280df4b03dc/id-preview-5d83d5f6--3ddec6cf-5315-407d-b22a-8302a91a4870.lovable.app-1771430233883.png",
+      "https://tekmera.ai/david-kershaw.png",
     ],
   },
   authors: [{ name: "Tekmera" }],
