@@ -138,7 +138,7 @@ export default function WorkfrontMcpUnlocksPage() {
         </div>
 
         <p>
-          The dormant set sorted into two clean buckets. About half were genuinely dormant, templates created more than a year ago with no use this year. Cleanup candidates. The other half were new, created within the last year and not yet used, which is normal. Among the dormant, the standout cluster was around 15 templates from an older batch, all owned by the same two users, all clearly superseded by the current generation of templates and never retired. Plus around 10 abandoned drafts named &ldquo;Untitled Template.&rdquo;
+          The dormant set sorted into two clean buckets. About half were genuinely dormant, templates created more than a year ago with no use this year. Cleanup candidates. The other half were new, created within the last year and not yet used, which is normal. Among the dormant, the standout cluster was around 15 templates from a Feb 2024 batch (Campaign Brief Intake, Marketing Initiative, Brand Asset Review, Email/Social/Web Campaign variants), all owned by the same two users, all clearly superseded by the current generation of templates and never retired. Plus around 10 abandoned drafts named &ldquo;Untitled Template.&rdquo;
         </p>
 
         <figure className="my-8">
