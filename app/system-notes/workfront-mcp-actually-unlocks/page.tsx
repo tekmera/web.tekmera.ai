@@ -169,7 +169,7 @@ export default function WorkfrontMcpUnlocksPage() {
           Most quarterly portfolio updates take hours: pull the projects, check task status across each, identify what&apos;s stuck, write the narrative, format it for the audience. The PM who owns the portfolio knows this work intimately and also knows it&apos;s the work they&apos;d most like to push off their plate.
         </p>
         <p>
-          I built a small fabricated portfolio in the sandbox: <em>Q4 2026 Holiday Launch</em>, four projects, mixed statuses. Then asked Claude:
+          I built a small fabricated portfolio: <em>Q4 2026 Holiday Launch</em>, four projects, mixed statuses. Then asked Claude:
         </p>
 
         <blockquote className="border-l-2 border-border pl-6 italic text-muted-foreground my-6">
