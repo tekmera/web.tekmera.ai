@@ -78,6 +78,14 @@ export default function SystemNotesPage() {
           <ul className="space-y-3">
             <li>
               <Link
+                href="/system-notes/workfront-mcp-actually-unlocks"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                What the Workfront MCP Actually Unlocks
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/system-notes/runaway-one-time-scenario"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
