@@ -89,7 +89,7 @@ export default function WorkfrontMcpUnlocksPage() {
           Adobe took a different architectural approach with the Workfront MCP. The docs are explicit: it <em>&ldquo;uses your Workfront account, access level, and object permissions&rdquo;</em> and <em>&ldquo;only works if you have the corresponding access in Workfront.&rdquo;</em> The MCP client holds the user&apos;s auth. Each tool call carries the user&apos;s identity. The agent inherits the asking user&apos;s boundary. The identity architecture the enterprise already built is what governs the agent.
         </p>
         <p>
-          The trade is real. With a service account, anyone can ask anything and the agent answers. With MCP, your users need the access to do their work, and if they don&apos;t, neither will the agent. I hit this in my own testing: read queries failed against admin-scoped data until I got system admin access. That&apos;s governance working as designed.
+          The trade is real. With a service account, anyone can ask anything and the agent answers. With MCP, your users need the access to do their work, and if they don&apos;t, neither will the agent. That&apos;s governance working as designed.
         </p>
         <p className="text-foreground font-medium">
           For enterprise scale: real audit trail, real attribution, real boundary inheritance. Identity attached at the protocol level lives in a different operating model than identity bolted on at the workflow layer.
