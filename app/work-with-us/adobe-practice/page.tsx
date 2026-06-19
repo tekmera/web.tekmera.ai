@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
@@ -52,6 +53,30 @@ export default function AdobePracticePage() {
           <p>
             <span className="text-foreground font-medium">Cross-platform integration.</span> How Adobe Workfront and Fusion fit into the broader stack — content supply chain, marketing operations, digital asset management, identity management, and cross-platform orchestration.
           </p>
+        </div>
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-2xl text-foreground mb-6">From the Field</h2>
+        <p className="text-secondary-foreground leading-relaxed mb-6">
+          Working notes from inside enterprise Adobe deployments. What&apos;s shipping, what&apos;s not, what the protocol layer is changing.
+        </p>
+
+        <div className="border border-border rounded-md p-6 hover:border-primary transition-colors">
+          <p className="text-xs uppercase tracking-wider text-muted-foreground font-body font-semibold mb-3">
+            Field Work
+          </p>
+          <h3 className="text-xl text-foreground mb-3">
+            <Link href="/system-notes/workfront-mcp-actually-unlocks" className="hover:text-primary transition-colors">
+              What the Workfront MCP Actually Unlocks
+            </Link>
+          </h3>
+          <p className="text-secondary-foreground leading-relaxed mb-4">
+            Two real workflows against Adobe&apos;s Workfront MCP server, what they produced, and the five patterns the protocol unlocks at the architecture level.
+          </p>
+          <Link href="/system-notes/workfront-mcp-actually-unlocks" className="text-primary hover:underline text-sm font-medium">
+            Read the piece →
+          </Link>
         </div>
       </section>
 
