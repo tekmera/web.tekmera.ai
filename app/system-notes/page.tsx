@@ -37,7 +37,7 @@ export default function SystemNotesPage() {
                 href="/system-notes/when-the-mandate-stops-at-use-ai"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
-                When the Mandate Stops at &ldquo;Use AI&rdquo;
+                Who&apos;s Your Agent?
               </Link>
             </li>
             <li>

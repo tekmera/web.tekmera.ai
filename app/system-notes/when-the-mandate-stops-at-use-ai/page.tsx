@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "When the mandate stops at \"use AI\"",
+  title: "Who's Your Agent?",
   description:
-    "Teams are being asked to implement AI without being told why or with what. How I choose between the Workfront API, MCP, Fusion and AI Collaborators, and why identity is usually the real decision.",
+    "How I choose between the Workfront API, MCP, Fusion and AI Collaborators, and why identity is the real decision.",
   openGraph: {
-    title: "When the mandate stops at \"use AI\" | Tekmera",
+    title: "Who's Your Agent? | Tekmera",
     description:
-      "Teams are being asked to implement AI without being told why or with what. How I choose between the Workfront API, MCP, Fusion and AI Collaborators, and why identity is usually the real decision.",
+      "How I choose between the Workfront API, MCP, Fusion and AI Collaborators, and why identity is the real decision.",
   },
 };
 
-export default function WhenTheMandateStopsPage() {
+export default function WhosYourAgentPage() {
   return (
     <article className="max-w-3xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-24">
       <div className="mb-14">
@@ -23,7 +23,7 @@ export default function WhenTheMandateStopsPage() {
           {" "}/ Principles
         </p>
         <h1 className="text-3xl md:text-[2.75rem] md:leading-[1.15] text-foreground mb-6 text-balance">
-          When the mandate stops at &ldquo;use AI&rdquo;
+          Who&apos;s Your Agent?
         </h1>
         <p className="text-lg text-secondary-foreground leading-relaxed mb-3">
           Choosing between the Workfront API, MCP, Fusion and AI Collaborators
@@ -35,10 +35,10 @@ export default function WhenTheMandateStopsPage() {
 
       <div className="text-secondary-foreground leading-relaxed space-y-6">
         <p>
-          A lot of teams are being asked to implement AI, and the ask often stops there. It doesn&apos;t say why, how, or what to use, so the team is left with the tool question. When do you use the Workfront API, when do you use MCP, and when do you use Fusion? AI Collaborators add another option, and now Fusion itself has AI modules.
+          Adobe has been releasing a lot of AI capabilities lately, and the question I keep hearing is where each one fits. When do you use the Workfront API, when do you use MCP, and when do you use Fusion? AI Collaborators add another option, and now Fusion itself has AI modules.
         </p>
         <p>
-          I keep hearing versions of this question. Several of these tools can touch the same Workfront data, and choosing one means choosing what you&apos;ll run and maintain afterward.
+          Several of these tools can touch the same Workfront data, and choosing one means choosing what you&apos;ll run and maintain afterward.
         </p>
         <p>
           The usual advice is to start with the use case and pick the best fit. I agree, but if four use cases lead to four different platforms, you&apos;ve also given yourself four footprints. So before I compare features, I go a layer above the question. What are we trying to accomplish, what are we willing to own, and what have we already decided to run? Once those are clear, the tool choice gets easier.
@@ -287,7 +287,7 @@ export default function WhenTheMandateStopsPage() {
           </table>
         </div>
         <p>
-          The table won&apos;t produce the answer by itself, and the example above is why. Every option there would have matched a row. The choice came from the caller, the credential, and who owns it, which is the layer above the original question. Those are also the parts a mandate to &ldquo;use AI&rdquo; leaves out, and a team has to work them out before the tool question has an answer.
+          The table won&apos;t produce the answer by itself, and the example above is why. Every option there would have matched a row. The choice came from the caller, the credential, and who owns it, which is the layer above the original question. A team has to work those out before the tool question has an answer.
         </p>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
           References
