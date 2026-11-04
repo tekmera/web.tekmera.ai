@@ -38,19 +38,19 @@ export default function WhenTheMandateStopsPage() {
           A lot of teams are being asked to implement AI, and the ask often stops there. It doesn&apos;t say why, how, or what to use, so the team is left with the tool question. When do you use the Workfront API, when do you use MCP, and when do you use Fusion? AI Collaborators add another option, and now Fusion itself has AI modules.
         </p>
         <p>
-          I keep hearing versions of this question, and I understand why. Several of these tools can touch the same Workfront data, but choosing one means deciding what you&apos;ll have to run and maintain afterward.
+          I keep hearing versions of this question. Several of these tools can touch the same Workfront data, and choosing one means choosing what you&apos;ll run and maintain afterward.
         </p>
         <p>
-          The usual advice is to start with the use case and pick the best fit. I agree, but if four use cases lead to four different platforms, you&apos;ve also given yourself four footprints. So before I compare features, I try to go a layer above the question. What are we trying to accomplish, what are we willing to own, and what have we already decided to run? Once those are clearer, the tool choice gets easier.
+          The usual advice is to start with the use case and pick the best fit. I agree, but if four use cases lead to four different platforms, you&apos;ve also given yourself four footprints. So before I compare features, I go a layer above the question. What are we trying to accomplish, what are we willing to own, and what have we already decided to run? Once those are clear, the tool choice gets easier.
         </p>
         <p>
-          Here&apos;s where I usually land. I start with where the work happens, because that usually gives you the platform answer. If the work happens in Adobe, work within what Adobe provides. If it happens in Microsoft, the same goes for Microsoft.
+          Here&apos;s where I land. Where the work happens gives you the platform answer. If the work happens in Adobe, work within what Adobe provides. If it happens in Microsoft, work within Microsoft.
         </p>
         <p>
-          You could go fully custom and integrate across every platform yourself, but that&apos;s the footprint problem again, at a much larger scale. I&apos;d start with a bias toward using the platform&apos;s products over building your own. If the work really does span several platforms, that&apos;s where n8n or another general platform makes sense.
+          You could go fully custom and integrate across every platform yourself, but that&apos;s the footprint problem again, at a much larger scale. My bias is toward the platform&apos;s products over building your own. If the work really does span several platforms, that&apos;s where n8n or another general platform fits.
         </p>
         <p>
-          If the work is in Adobe and the steps are known, I&apos;d start with a standard Fusion scenario or the API, with no AI at run time. If a person wants their own assistant working in Workfront, that&apos;s Workfront MCP on their own account. If an agent should take on work inside a Workfront project, that&apos;s an AI Collaborator. And before building anything custom, I&apos;d work out whose identity Workfront will see, because that&apos;s usually where the real decision is.
+          If the work is in Adobe and the steps are known, that&apos;s a standard Fusion scenario or the API, with no AI at run time. If a person wants their own assistant working in Workfront, that&apos;s Workfront MCP on their own account. If an agent should take on work inside a Workfront project, that&apos;s an AI Collaborator. Before building anything custom, work out whose identity Workfront will see, because that&apos;s where the real decision is. The version most teams build first, one assistant for everyone on a shared integration account, is the one I&apos;d avoid.
         </p>
         <figure className="my-10">
           <img
@@ -66,25 +66,25 @@ export default function WhenTheMandateStopsPage() {
           The layer above
         </p>
         <p>
-          AI covers a lot of ground, so the first thing I want to understand is what the work actually needs. A lot of work is deterministic. The steps are known, and part of the value is that it runs the same way every time. That kind of work often doesn&apos;t need AI at run time at all. The Workfront API handled it before this wave of AI, and it still does.
+          AI covers a lot of ground, so I start with what the work needs. A lot of work is deterministic. The steps are known, and part of the value is that it runs the same way every time. That kind of work doesn&apos;t need AI at run time. The Workfront API handled it before this wave of AI, and it still does.
         </p>
         <p>
-          There&apos;s also a build versus buy question that tends to get skipped. Most organizations aren&apos;t AI companies, even when AI is a big part of their plans. If AI isn&apos;t the business you&apos;re in, building and maintaining your own version of a capability that a platform is rapidly adding deserves a higher bar. I think many organizations have only paid for the build so far, and most of the cost of maintaining it is still ahead of them.
+          There&apos;s also a build versus buy question that gets skipped. Most organizations aren&apos;t AI companies, even when AI is a big part of their plans. If AI isn&apos;t the business you&apos;re in, building and maintaining your own version of a capability that a platform is rapidly adding deserves a higher bar. Most organizations have only paid for the build so far, and most of the cost of maintaining it is still ahead of them.
         </p>
         <p>
-          That doesn&apos;t make the platform automatically right. But at some point you&apos;re placing a bet. When the landscape is unsettled, the old &ldquo;nobody gets fired for choosing Microsoft&rdquo; instinct makes sense to me. You choose something you can operate, accept its limits, and resist adding another system every time a new term arrives.
+          At some point you&apos;re placing a bet. When the landscape is unsettled, the old &ldquo;nobody gets fired for choosing Microsoft&rdquo; instinct is the right one. You choose something you can operate, accept its limits, and resist adding another system every time a new term arrives.
         </p>
         <p>
-          And the terms do arrive quickly. MCP was the new thing, then agent-to-agent, and now agent factories. Some of that is new capability, and some of it is a new name for something that already existed. If every announcement changes the plan for a deployment, it&apos;s hard to finish anything, and I don&apos;t think most teams need to keep their architecture at the bleeding edge to make good decisions.
+          And the terms do arrive quickly. MCP was the new thing, then agent-to-agent, and now agent factories. Some of that is new capability, and some of it is a new name for something that already existed. If every announcement changes the plan for a deployment, it&apos;s hard to finish anything. Teams don&apos;t need their architecture at the bleeding edge to make good decisions.
         </p>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
           Identities, always identities
         </p>
         <p>
-          Identity is fundamental to this decision, and in a lot of cases it is the decision. It&apos;s also easy to overlook. Teams tend to work through it as a gate on the way to getting something running. They find a credential, get access approved, and move on. It rarely gets treated as a requirement with its own design.
+          Identity is fundamental to this decision, and in a lot of cases it is the decision. It&apos;s also easy to overlook. Teams work through it as a gate on the way to getting something running. They find a credential, get access approved, and move on. It rarely gets treated as a requirement with its own design.
         </p>
         <p>
-          Who asked for the work, and whose credentials does Workfront actually see? Those are often different. Someone asks an assistant a question, and the assistant reaches Workfront through an integration account. The answer looks like it was retrieved for that person, but Workfront only sees the account, and the account&apos;s permissions decide what comes back. That gap is easy to create by accident, so it needs to be designed and approved on purpose.
+          Who asked for the work, and whose credentials does Workfront actually see? Those are often different. Someone asks an assistant a question, and the assistant reaches Workfront through an integration account. The answer looks like it was retrieved for that person, but Workfront only sees the account, and the account&apos;s permissions decide what comes back. That gap is easy to create by accident, so design and approve it on purpose.
         </p>
         <figure className="my-10">
           <img
@@ -97,10 +97,10 @@ export default function WhenTheMandateStopsPage() {
           </figcaption>
         </figure>
         <p>
-          This is also where the build versus buy question comes back. The platform&apos;s own options can carry the identity for you. Workfront MCP, connected through a person&apos;s own sign-in, acts as that person, and an AI Collaborator gets an access level the way a user does. A custom build has to bring its own identity to reach the platform, usually an integration account, and that&apos;s where the gap between the person asking and the credential Workfront sees tends to start.
+          This is also where the build versus buy question comes back. The platform&apos;s own options can carry the identity for you. Workfront MCP, connected through a person&apos;s own sign-in, acts as that person, and an AI Collaborator gets an access level the way a user does. A custom build has to bring its own identity to reach the platform, usually an integration account, and that&apos;s where the gap between the person asking and the credential Workfront sees starts.
         </p>
         <p>
-          Using the platform doesn&apos;t settle it automatically, though. Workfront MCP can also be called with a service credential, and a Fusion scenario runs on whatever connection someone set up, so the identity model needs checking either way.
+          The platform route still needs checking. Workfront MCP can also be called with a service credential, and a Fusion scenario runs on whatever connection someone set up.
         </p>
         <h3 className="text-foreground font-semibold text-lg pt-4">
           How identity breaks
@@ -112,7 +112,7 @@ export default function WhenTheMandateStopsPage() {
           A single pane of glass
         </h3>
         <p>
-          Then there&apos;s the question of a single pane of glass for agents. Products for it exist now, and what they&apos;re for is governance: knowing which agents you have and keeping them in check. The question I&apos;d ask is where that governance works best.
+          Then there&apos;s the question of a single pane of glass for agents. Products for it exist now, and what they&apos;re for is governance: knowing which agents you have and keeping them in check. The question is where that governance belongs.
         </p>
         <p>
           We don&apos;t keep a live view of everything employees do. We give them an account with the access their job needs, a manager who knows their work, and audit logs to check when something goes wrong.
@@ -121,19 +121,19 @@ export default function WhenTheMandateStopsPage() {
           An agent that works on its own can be governed the same way, at the identity layer you already run. It gets its own account, separate from any person&apos;s and from shared integration accounts, with the least access the job needs and an owner. A person&apos;s own assistant is different, because it acts on that person&apos;s behalf and Workfront sees the person.
         </p>
         <p>
-          Either way, the identity layer is a natural home for the inventory: which agents exist, who owns them, and what they can reach. Each business area then sees its agents&apos; work in the platforms where it happens, the way a collaborator shows up in its Workfront project.
+          Either way, the inventory belongs in the identity layer: which agents exist, who owns them, and what they can reach. Each business area then sees its agents&apos; work in the platforms where it happens, the way a collaborator shows up in its Workfront project.
         </p>
         <p>
-          Watching across all of it, reviewing permissions and flagging unusual activity, is already a product category in identity and security, and those tools are extending to agents. I&apos;d treat that the same way as everything else here and use the version your identity or security platform provides instead of building your own.
+          Watching across all of it, reviewing permissions and flagging unusual activity, is already a product category in identity and security, and those tools are extending to agents. The rule is the same as everywhere else in this piece: use the version your identity or security platform provides instead of building your own.
         </p>
         <p>
-          Agents do differ from people in a few ways. They act much faster, so a bad permission does damage sooner. They can be left running after the person who built them has moved on. And a prompt can push them into something their owner never intended. Each of those points back to access and ownership more than to watching closely, so that&apos;s where I&apos;d put the effort first.
+          Agents do differ from people in a few ways. They act much faster, so a bad permission does damage sooner. They can be left running after the person who built them has moved on. And a prompt can push them into something their owner never intended. Each of those points back to access and ownership more than to watching closely, so that&apos;s where the effort goes first.
         </p>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
           One ask, all the way through
         </p>
         <p>
-          Here&apos;s an ask I think a lot of teams will get. A group of people want to ask an AI assistant about the work in Workfront: what&apos;s late, what&apos;s at risk, what changed this week. Some of them live in Workfront every day. Others rarely log in, and a few don&apos;t have their own access.
+          Here&apos;s an ask a lot of teams get. A group of people want to ask an AI assistant about the work in Workfront: what&apos;s late, what&apos;s at risk, what changed this week. Some of them live in Workfront every day. Others rarely log in, and a few don&apos;t have their own access.
         </p>
         <p>
           At the tool level, this looks easy. It&apos;s a person asking questions and following up on the answers, which is exactly what an assistant is good at. There are a few ways to build it, and they all work in a demo.
@@ -152,13 +152,13 @@ export default function WhenTheMandateStopsPage() {
           Their own assistant
         </h3>
         <p>
-          The first is for each person to connect their own assistant through Workfront MCP. Workfront then sees that person&apos;s account, and they get what their own permissions allow. Any action in Workfront is recorded against that account, and the option adds no new system to run, only settings to manage. The catch is that it only serves the people who already have Workfront access and are comfortable with an AI assistant, which may not be the people the ask came from.
+          The first is for each person to connect their own assistant through Workfront MCP. Workfront then sees that person&apos;s account, and they get what their own permissions allow. Any action in Workfront is recorded against that account, and the option adds no new system to run, only settings to manage. The catch is that it only serves the people who already have Workfront access and are comfortable with an AI assistant, and those often aren&apos;t the people the ask came from.
         </p>
         <h3 className="text-foreground font-semibold text-lg pt-4">
           One assistant for everyone
         </h3>
         <p>
-          The second is to build an assistant that everyone can use, backed by a single integration account calling the API. It serves the whole group, and it&apos;s the version that tends to get built first.
+          The second is to build an assistant that everyone can use, backed by a single integration account calling the API. It serves the whole group, and it&apos;s the version that gets built first.
         </p>
         <p>
           At the layer above, it looks different. Workfront sees one account for every question, so unless the assistant enforces each person&apos;s own access itself, everyone gets that account&apos;s access, including people whose own access would show them far less, or nothing. Tracing a question back to a person means relying on the assistant&apos;s logs instead of Workfront&apos;s.
@@ -170,28 +170,28 @@ export default function WhenTheMandateStopsPage() {
           Specific data, provided
         </h3>
         <p>
-          The third is narrower. Work out what the group actually needs to see, and provide that specific data to the assistant instead of giving it broad access to Workfront. It&apos;s less impressive in a demo, but the access is bounded by design, the data owner decides what leaves the system, and when it breaks, the owner is clear.
+          The third is narrower. Work out what the group needs to see, and provide that specific data to the assistant instead of giving it broad access to Workfront. It&apos;s less impressive in a demo, but the access is bounded by design, the data owner decides what leaves the system, and when it breaks, the owner is clear.
         </p>
         <p>
           It has costs, too. Bounding the data doesn&apos;t settle who may receive it. Some of the group have no Workfront access, so the data owner still has to approve sharing it with them, even through a curated feed. That approval is the identity question again, moved to a different point.
         </p>
         <p>
-          The assistant can also only answer questions inside that data. Someone has to keep it current, usually with a feed on a platform you already run, and a follow-up question that falls outside it gets no answer. That turns scope into a conversation with the data owner, which I think is where it belongs.
+          The assistant can also only answer questions inside that data. Someone has to keep it current, usually with a feed on a platform you already run, and a follow-up question that falls outside it gets no answer. That turns scope into a conversation with the data owner, which is where it belongs.
         </p>
         <h3 className="text-foreground font-semibold text-lg pt-4">
           Where I&apos;d start
         </h3>
         <p>
-          Each of them answers the ask for at least part of the group. What separates them is the caller, the credential, what that credential can reach, and who answers for it when something goes wrong. In a case like this, I&apos;d usually start with the third, and let people who already have access use MCP on their own accounts. The second option is the one I&apos;d be most careful with, even though it&apos;s the one that looks most like the ask.
+          Each of them answers the ask for at least part of the group. What separates them is the caller, the credential, what that credential can reach, and who answers for it when something goes wrong. In a case like this, I start with the third and let people who already have access use MCP on their own accounts. I&apos;d avoid the second, even though it looks most like the ask.
         </p>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
           Placing the other tools
         </p>
         <p>
-          Most asks are simpler than that. Say an approved Workfront project needs to create a record in another system. The trigger and fields are known. I&apos;d start with a standard Fusion scenario if the connectors and operating model fit, or a direct API integration if this belongs inside an application. A model choosing the steps at run time doesn&apos;t add much to that case.
+          Most asks are simpler than that. Say an approved Workfront project needs to create a record in another system. The trigger and fields are known. That&apos;s a standard Fusion scenario if the connectors and operating model fit, or a direct API integration if it belongs inside an application. A model choosing the steps at run time adds nothing there.
         </p>
         <p>
-          The person in the first option above is who I&apos;ve had in mind when I&apos;ve called MCP a power user tool. I use the Workfront MCP server when I&apos;m building on top of Workfront, but I&apos;m not really a Workfront user in the everyday sense. The person who gets the most out of it is the AI-native admin who lives in Workfront and wants their assistant to reach into it. Ali Spittel captured the preference well: <a href="https://x.com/ASpittel/status/2090889137062826240" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">&ldquo;i really don&apos;t want to use your agent, i want to use my agent to use your thing.&rdquo;</a>
+          The person in the first option above is who I&apos;ve had in mind when I&apos;ve called MCP a power user tool. I use the Workfront MCP server when I&apos;m building on top of Workfront, but I&apos;m not a Workfront user in the everyday sense. The person who gets the most out of it is the AI-native admin who lives in Workfront and wants their assistant to reach into it. Ali Spittel captured the preference well: <a href="https://x.com/ASpittel/status/2090889137062826240" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">&ldquo;i really don&apos;t want to use your agent, i want to use my agent to use your thing.&rdquo;</a>
         </p>
         <figure className="my-10">
           <img
@@ -219,7 +219,7 @@ export default function WhenTheMandateStopsPage() {
           The pattern I&apos;d reach for first in a scenario is narrower, and I&apos;ve used it for things like triaging phone calls. A model classifies unstructured text into a category, and the scenario routes on the result with standard modules.
         </p>
         <p>
-          If I need an automation footprint for Adobe work, Fusion is where I&apos;d start. Its Workfront and Adobe connections are a strength.
+          If I need an automation footprint for Adobe work, Fusion is where I start. Its Workfront and Adobe connections are a strength.
         </p>
         <p>
           But if the mandate is to integrate work across the whole company, I wouldn&apos;t assume Fusion should run it all just because it can connect. No one&apos;s buying the Adobe stack because Fusion exists. That&apos;s where I&apos;d compare n8n or another general platform, and I&apos;d be deliberate if both end up running. I don&apos;t want two systems quietly writing to the same system of record with no clear owner.
