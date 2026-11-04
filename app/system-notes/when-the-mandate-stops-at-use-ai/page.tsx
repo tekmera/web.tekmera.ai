@@ -289,6 +289,31 @@ export default function WhenTheMandateStopsPage() {
         <p>
           The table won&apos;t produce the answer by itself, and the example above is why. Every option there would have matched a row. The choice came from the caller, the credential, and who owns it, which is the layer above the original question. Those are also the parts a mandate to &ldquo;use AI&rdquo; leaves out, and a team has to work them out before the tool question has an answer.
         </p>
+        <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
+          References
+        </p>
+        <p className="text-foreground font-medium pt-2">Adobe Experience League</p>
+        <ul className="space-y-2 pl-5 list-disc marker:text-primary text-sm">
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Adobe Workfront MCP server overview</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/use-workfront-mcp-server" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Use the Adobe Workfront MCP server</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/configure-workfront-mcp-server" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Configure the Adobe Workfront MCP server</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/configure-ai-collaborators" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Configure AI Collaborators</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/use-fusion-mcp-server/configure-fusion-mcp-server" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Configure the Adobe Workfront Fusion MCP server</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-mcp-modules" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Adobe Workfront MCP modules in Fusion</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Add an AI prompt to your scenario</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/built-in-vs-api-vs-fusion" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Adobe Workfront integration methods</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Fusion connection overview</a></li>
+        </ul>
+        <p className="text-foreground font-medium pt-2">From practitioners</p>
+        <ul className="space-y-2 pl-5 list-disc marker:text-primary text-sm">
+          <li>Becky Barus, <a href="https://experienceleague.adobe.com/en/perspectives/ai-collaborators-in-workfront-your-new-teammates" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">AI Collaborators in Workfront: Your new teammates</a></li>
+          <li>Ali Spittel, <a href="https://x.com/ASpittel/status/2090889137062826240" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">post on X, August 21, 2026</a></li>
+        </ul>
+        <p className="text-foreground font-medium pt-2">On agent identity</p>
+        <ul className="space-y-2 pl-5 list-disc marker:text-primary text-sm">
+          <li>NIST, <a href="https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Design Tenets for Agent Identity Management Systems</a></li>
+          <li>OWASP, <a href="https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">MCP Security Cheat Sheet</a></li>
+        </ul>
       </div>
 
       <div className="border-t border-border mt-16 pt-8">
