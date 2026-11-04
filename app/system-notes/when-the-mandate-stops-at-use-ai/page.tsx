@@ -44,7 +44,7 @@ export default function WhenTheMandateStopsPage() {
           The usual advice is to start with the use case and pick the best fit. I agree, but if four use cases lead to four different platforms, you&apos;ve also given yourself four footprints. So before I compare features, I go a layer above the question. What are we trying to accomplish, what are we willing to own, and what have we already decided to run? Once those are clear, the tool choice gets easier.
         </p>
         <p>
-          Here&apos;s where I land. Where the work happens gives you the platform answer. If the work happens in Adobe, work within what Adobe provides. If it happens in Microsoft, work within Microsoft.
+          Where the work happens gives you the platform answer. If the work happens in Adobe, work within what Adobe provides. If it happens in Microsoft, work within Microsoft.
         </p>
         <p>
           You could go fully custom and integrate across every platform yourself, but that&apos;s the footprint problem again, at a much larger scale. My bias is toward the platform&apos;s products over building your own. If the work really does span several platforms, that&apos;s where n8n or another general platform fits.
@@ -55,11 +55,11 @@ export default function WhenTheMandateStopsPage() {
         <figure className="my-10">
           <img
             src="/use-ai-decision-flow.png"
-            alt="Where I usually land: start with where the work happens, then the kind of Adobe work, then check whose identity Workfront will see before building anything custom."
+            alt="Start with where the work happens. Then the kind of Adobe work, then check whose identity Workfront will see before building anything custom."
             className="w-full rounded-md border border-border"
           />
           <figcaption className="text-xs text-muted-foreground mt-2 text-center">
-            Where I usually land.
+            Start with where the work happens.
           </figcaption>
         </figure>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
