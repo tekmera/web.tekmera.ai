@@ -34,6 +34,14 @@ export default function SystemNotesPage() {
           <ul className="space-y-3">
             <li>
               <Link
+                href="/system-notes/when-the-mandate-stops-at-use-ai"
+                className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
+              >
+                When the Mandate Stops at &ldquo;Use AI&rdquo;
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/system-notes/ai-without-architecture"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
