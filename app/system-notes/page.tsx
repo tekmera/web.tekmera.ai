@@ -34,7 +34,7 @@ export default function SystemNotesPage() {
           <ul className="space-y-3">
             <li>
               <Link
-                href="/system-notes/when-the-mandate-stops-at-use-ai"
+                href="/system-notes/whos-your-agent"
                 className="text-foreground hover:text-primary transition-colors font-medium leading-snug block"
               >
                 Who&apos;s Your Agent?
