@@ -50,7 +50,7 @@ export default function WhenTheMandateStopsPage() {
           You could go fully custom and integrate across every platform yourself, but that&apos;s the footprint problem again, at a much larger scale. My bias is toward the platform&apos;s products over building your own. If the work really does span several platforms, that&apos;s where n8n or another general platform fits.
         </p>
         <p>
-          If the work is in Adobe and the steps are known, that&apos;s a standard Fusion scenario or the API, with no AI at run time. If a person wants their own assistant working in Workfront, that&apos;s Workfront MCP on their own account. If an agent should take on work inside a Workfront project, that&apos;s an AI Collaborator. Before building anything custom, work out whose identity Workfront will see, because that&apos;s where the real decision is. The version most teams build first, one assistant for everyone on a shared integration account, is the one I&apos;d avoid.
+          If the work is in Adobe and the steps are known, that&apos;s a standard Fusion scenario or the API, with no AI at run time. If a person wants their own assistant working in Workfront, that&apos;s Workfront MCP on their own account. If an agent should take on work inside a Workfront project, that&apos;s an AI Collaborator. Before building anything custom, work out whose identity Workfront will see, because that&apos;s where the real decision is. The version that looks most like the ask, one assistant for everyone on a shared integration account, is the one I&apos;d avoid.
         </p>
         <figure className="my-10">
           <img
@@ -69,7 +69,7 @@ export default function WhenTheMandateStopsPage() {
           AI covers a lot of ground, so I start with what the work needs. A lot of work is deterministic. The steps are known, and part of the value is that it runs the same way every time. That kind of work doesn&apos;t need AI at run time. The Workfront API handled it before this wave of AI, and it still does.
         </p>
         <p>
-          There&apos;s also a build versus buy question that gets skipped. Most organizations aren&apos;t AI companies, even when AI is a big part of their plans. If AI isn&apos;t the business you&apos;re in, building and maintaining your own version of a capability that a platform is rapidly adding deserves a higher bar. Most organizations have only paid for the build so far, and most of the cost of maintaining it is still ahead of them.
+          There&apos;s also a build versus buy question that gets skipped. Most organizations aren&apos;t AI companies, even when AI is a big part of their plans. If AI isn&apos;t the business you&apos;re in, building and maintaining your own version of a capability that a platform is rapidly adding deserves a higher bar. An organization that builds its own has paid for the build, and most of the cost of maintaining it is still ahead of it.
         </p>
         <p>
           At some point you&apos;re placing a bet. When the landscape is unsettled, the old &ldquo;nobody gets fired for choosing Microsoft&rdquo; instinct is the right one. You choose something you can operate, accept its limits, and resist adding another system every time a new term arrives.
@@ -81,7 +81,7 @@ export default function WhenTheMandateStopsPage() {
           Identities, always identities
         </p>
         <p>
-          Identity is fundamental to this decision, and in a lot of cases it is the decision. It&apos;s also easy to overlook. Teams work through it as a gate on the way to getting something running. They find a credential, get access approved, and move on. It rarely gets treated as a requirement with its own design.
+          Identity is fundamental to this decision, and in a lot of cases it is the decision. It&apos;s also easy to overlook. It&apos;s easy to treat it as a gate on the way to getting something running. You find a credential, get access approved, and move on, and it never gets designed as a requirement of its own.
         </p>
         <p>
           Who asked for the work, and whose credentials does Workfront actually see? Those are often different. Someone asks an assistant a question, and the assistant reaches Workfront through an integration account. The answer looks like it was retrieved for that person, but Workfront only sees the account, and the account&apos;s permissions decide what comes back. That gap is easy to create by accident, so design and approve it on purpose.
@@ -127,13 +127,13 @@ export default function WhenTheMandateStopsPage() {
           Watching across all of it, reviewing permissions and flagging unusual activity, is already a product category in identity and security, and those tools are extending to agents. The rule is the same as everywhere else in this piece: use the version your identity or security platform provides instead of building your own.
         </p>
         <p>
-          Agents do differ from people in a few ways. They act much faster, so a bad permission does damage sooner. They can be left running after the person who built them has moved on. And a prompt can push them into something their owner never intended. Each of those points back to access and ownership more than to watching closely, so that&apos;s where the effort goes first.
+          Agents do differ from people in a few ways. They act much faster, so a bad permission does damage sooner. They can be left running after the person who built them has moved on. And a prompt can push them into something their owner never intended. Access and ownership come first, because good permissions limit the damage. They don&apos;t tell you when an agent is doing the wrong thing inside those permissions, though, and an agent that acts quickly needs that signal quickly. That&apos;s where the monitoring from your identity or security platform earns its place.
         </p>
         <p className="text-foreground font-medium text-sm uppercase tracking-wider border-b border-border pb-2 mb-6 mt-14">
           One ask, all the way through
         </p>
         <p>
-          Here&apos;s an ask a lot of teams get. A group of people want to ask an AI assistant about the work in Workfront: what&apos;s late, what&apos;s at risk, what changed this week. Some of them live in Workfront every day. Others rarely log in, and a few don&apos;t have their own access.
+          Here&apos;s an ask I hear in different forms. A group of people want to ask an AI assistant about the work in Workfront: what&apos;s late, what&apos;s at risk, what changed this week. Some of them live in Workfront every day. Others rarely log in, and a few don&apos;t have their own access.
         </p>
         <p>
           At the tool level, this looks easy. It&apos;s a person asking questions and following up on the answers, which is exactly what an assistant is good at. There are a few ways to build it, and they all work in a demo.
@@ -152,13 +152,13 @@ export default function WhenTheMandateStopsPage() {
           Their own assistant
         </h3>
         <p>
-          The first is for each person to connect their own assistant through Workfront MCP. Workfront then sees that person&apos;s account, and they get what their own permissions allow. Any action in Workfront is recorded against that account, and the option adds no new system to run, only settings to manage. The catch is that it only serves the people who already have Workfront access and are comfortable with an AI assistant, and those often aren&apos;t the people the ask came from.
+          The first is for each person to connect their own assistant through Workfront MCP. Workfront then sees that person&apos;s account, and they get what their own permissions allow. Any action in Workfront is recorded against that account, and the option adds no new system to run, only settings to manage. The catch is that it only serves the people who already have Workfront access and are comfortable with an AI assistant, and they may not be the people the ask came from.
         </p>
         <h3 className="text-foreground font-semibold text-lg pt-4">
           One assistant for everyone
         </h3>
         <p>
-          The second is to build an assistant that everyone can use, backed by a single integration account calling the API. It serves the whole group, and it&apos;s the version that gets built first.
+          The second is to build an assistant that everyone can use, backed by a single integration account calling the API. It serves the whole group, and it&apos;s the closest match to the ask.
         </p>
         <p>
           At the layer above, it looks different. Workfront sees one account for every question, so unless the assistant enforces each person&apos;s own access itself, everyone gets that account&apos;s access, including people whose own access would show them far less, or nothing. Tracing a question back to a person means relying on the assistant&apos;s logs instead of Workfront&apos;s.
@@ -188,7 +188,7 @@ export default function WhenTheMandateStopsPage() {
           Placing the other tools
         </p>
         <p>
-          Most asks are simpler than that. Say an approved Workfront project needs to create a record in another system. The trigger and fields are known. That&apos;s a standard Fusion scenario if the connectors and operating model fit, or a direct API integration if it belongs inside an application. A model choosing the steps at run time adds nothing there.
+          Simpler asks are easier to place. Say an approved Workfront project needs to create a record in another system. The trigger and fields are known. That&apos;s a standard Fusion scenario if the connectors and operating model fit, or a direct API integration if it belongs inside an application. A model choosing the steps at run time adds nothing there.
         </p>
         <p>
           The person in the first option above is who I&apos;ve had in mind when I&apos;ve called MCP a power user tool. I use the Workfront MCP server when I&apos;m building on top of Workfront, but I&apos;m not a Workfront user in the everyday sense. The person who gets the most out of it is the AI-native admin who lives in Workfront and wants their assistant to reach into it. Ali Spittel captured the preference well: <a href="https://x.com/ASpittel/status/2090889137062826240" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">&ldquo;i really don&apos;t want to use your agent, i want to use my agent to use your thing.&rdquo;</a>
